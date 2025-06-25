@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: ad430286239d2af429518bb90ff15f6e
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - groundCheck: {instanceID: 0}
+  - wallCheck: {instanceID: 0}
+  - touchDamageCheck: {instanceID: 0}
+  - playerCheck: {instanceID: 0}
+  - hitParticle: {instanceID: 0}
+  - deathChunkParticle: {instanceID: 0}
+  - deathBloodParticle: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

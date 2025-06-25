@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 3
+  tags:
+  - Enemy
+  - LightBugs
+  - Shuriken
+  - RespawnPoint
+  - Star
+  - LevelEnd
+  - Cactus
+  - WoodObject
+  - VirtualCamera
+  - StoneGate
+  - Collectable
+  - UnclimbableWall
+  - Sky
+  - Mountain
+  - Tree1
+  - Tree2
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Ground
+  - Damageable
+  - Dead
+  - Player
+  - Enemy
+  - Shuiken
+  - WoodBox
+  - Collectibles
+  - UnclimbableWall
+  - Sky
+  - Tree1
+  - Tree2
+  - Mountain
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Sky Background
+    uniqueID: 2708944815
+    locked: 0
+  - name: Mountain Background
+    uniqueID: 4027305191
+    locked: 0
+  - name: Tree Background
+    uniqueID: 338862481
+    locked: 0
+  - name: Decoractions
+    uniqueID: 4198940655
+    locked: 0
+  - name: Ground
+    uniqueID: 772678075
+    locked: 0
+  - name: Foreground Decoraction
+    uniqueID: 1465813403
+    locked: 0
+  - name: Enemy
+    uniqueID: 124694831
+    locked: 0
+  - name: Player
+    uniqueID: 3724613569
+    locked: 0
+  m_RenderingLayers:
+  - Default

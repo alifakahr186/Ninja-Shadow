@@ -1,0 +1,1729 @@
+fileFormatVersion: 2
+guid: 7d16de4776a4bfe47b7cca00a01994e5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1115688479249797525
+    second: Hit Particles 2_0
+  - first:
+      213: -2993876527616023719
+    second: Hit Particles 2_1
+  - first:
+      213: 5123079961113082955
+    second: Hit Particles 2_2
+  - first:
+      213: -6935032484657844149
+    second: Hit Particles 2_3
+  - first:
+      213: 4210696876877706455
+    second: Hit Particles 2_4
+  - first:
+      213: 3043519733312942199
+    second: Hit Particles 2_5
+  - first:
+      213: -8543926509377929248
+    second: Hit Particles 2_6
+  - first:
+      213: 8543427549594567210
+    second: Hit Particles 2_7
+  - first:
+      213: -874080085583201074
+    second: Hit Particles 2_8
+  - first:
+      213: 1823520047036430520
+    second: Hit Particles 2_9
+  - first:
+      213: 1138860815214938506
+    second: Hit Particles 2_10
+  - first:
+      213: 3705706881326261810
+    second: Hit Particles 2_11
+  - first:
+      213: -8658065066125608070
+    second: Hit Particles 2_12
+  - first:
+      213: 5610194854959015227
+    second: Hit Particles 2_13
+  - first:
+      213: 6553802910381371514
+    second: Hit Particles 2_14
+  - first:
+      213: 3762568337147005554
+    second: Hit Particles 2_15
+  - first:
+      213: -8592348551504302545
+    second: Hit Particles 2_16
+  - first:
+      213: 7477417520088010095
+    second: Hit Particles 2_17
+  - first:
+      213: 7732164371164754593
+    second: Hit Particles 2_18
+  - first:
+      213: 8889570603914414001
+    second: Hit Particles 2_19
+  - first:
+      213: 580912812224832313
+    second: Hit Particles 2_20
+  - first:
+      213: -862008269122541544
+    second: Hit Particles 2_21
+  - first:
+      213: 3341275778229398928
+    second: Hit Particles 2_22
+  - first:
+      213: 3522104297849462601
+    second: Hit Particles 2_23
+  - first:
+      213: 3873244008809689397
+    second: Hit Particles 2_24
+  - first:
+      213: 8405041043473907467
+    second: Hit Particles 2_25
+  - first:
+      213: 5317484572997152383
+    second: Hit Particles 2_26
+  - first:
+      213: 3682907947058057480
+    second: Hit Particles 2_27
+  - first:
+      213: -8608571387334027101
+    second: Hit Particles 2_28
+  - first:
+      213: -1858754385824424439
+    second: Hit Particles 2_29
+  - first:
+      213: 1682133229988564900
+    second: Hit Particles 2_30
+  - first:
+      213: -8303804896716809939
+    second: Hit Particles 2_31
+  - first:
+      213: 6755546116214245327
+    second: Hit Particles 2_32
+  - first:
+      213: 7709464545605343161
+    second: Hit Particles 2_33
+  - first:
+      213: 8217334199666565617
+    second: Hit Particles 2_34
+  - first:
+      213: 101787351671280502
+    second: Hit Particles 2_35
+  - first:
+      213: -287557083279101372
+    second: Hit Particles 2_36
+  - first:
+      213: 995692379665128357
+    second: Hit Particles 2_37
+  - first:
+      213: 8598201942035638521
+    second: Hit Particles 2_38
+  - first:
+      213: 1711664315021364713
+    second: Hit Particles 2_39
+  - first:
+      213: -56931332433054413
+    second: Hit Particles 2_40
+  - first:
+      213: 3164523999874824065
+    second: Hit Particles 2_41
+  - first:
+      213: -5363107228672982879
+    second: Hit Particles 2_42
+  - first:
+      213: -4063943421310775147
+    second: Hit Particles 2_43
+  - first:
+      213: 8501716721339507620
+    second: Hit Particles 2_44
+  - first:
+      213: -2532553873220534757
+    second: Hit Particles 2_45
+  - first:
+      213: 4884144460963864182
+    second: Hit Particles 2_46
+  - first:
+      213: -7847619390656051105
+    second: Hit Particles 2_47
+  - first:
+      213: 5398928221782186639
+    second: Hit Particles 2_48
+  - first:
+      213: 6920805230811215122
+    second: Hit Particles 2_49
+  - first:
+      213: 1861342414808897220
+    second: Hit Particles 2_50
+  - first:
+      213: 5648058474192920907
+    second: Hit Particles 2_51
+  - first:
+      213: 8896203777303605430
+    second: Hit Particles 2_52
+  - first:
+      213: -1339500871532700265
+    second: Hit Particles 2_53
+  - first:
+      213: -4677156251791951674
+    second: Hit Particles 2_54
+  - first:
+      213: -7094005987225495205
+    second: Hit Particles 2_55
+  - first:
+      213: 6909261343684167827
+    second: Hit Particles 2_56
+  - first:
+      213: 2338236919993397270
+    second: Hit Particles 2_57
+  - first:
+      213: -8874834053433543584
+    second: Hit Particles 2_58
+  - first:
+      213: -3131880983815024254
+    second: Hit Particles 2_59
+  - first:
+      213: -4371723916300999268
+    second: Hit Particles 2_60
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 47
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Hit Particles 2_0
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 1029
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5911eadb2c8bb7f00800000000000000
+      internalID: 1115688479249797525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hit Particles 2_1
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 1028
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 953211e092d9376d0800000000000000
+      internalID: -2993876527616023719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hit Particles 2_2
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 1012
+        width: 46
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4c3116d416d81740800000000000000
+      internalID: 5123079961113082955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hit Particles 2_3
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 973
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b40bc26d2b0d1cf90800000000000000
+      internalID: -6935032484657844149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hit Particles 2_4
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 983
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d4742310866f6a30800000000000000
+      internalID: 4210696876877706455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hit Particles 2_5
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 218
+        width: 650
+        height: 740
+      alignment: 9
+      pivot: {x: 0.6360883, y: 0.6020437}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 770720b7211cc3a20800000000000000
+      internalID: 3043519733312942199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hit Particles 2_6
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 950
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ef3c7d7b10ed6980800000000000000
+      internalID: -8543926509377929248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hit Particles 2_7
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 953
+        width: 25
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a22ced1671a509670800000000000000
+      internalID: 8543427549594567210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hit Particles 2_8
+      rect:
+        serializedVersion: 2
+        x: 909
+        y: 947
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eccf1911bc4aed3f0800000000000000
+      internalID: -874080085583201074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hit Particles 2_9
+      rect:
+        serializedVersion: 2
+        x: 947
+        y: 930
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b8f86442d17e4910800000000000000
+      internalID: 1823520047036430520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hit Particles 2_10
+      rect:
+        serializedVersion: 2
+        x: 903
+        y: 919
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a898f73a0eb0ecf00800000000000000
+      internalID: 1138860815214938506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hit Particles 2_11
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 863
+        width: 58
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2362c2f56c05d6330800000000000000
+      internalID: 3705706881326261810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hit Particles 2_12
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 904
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7b3d5bd1bf58d780800000000000000
+      internalID: -8658065066125608070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hit Particles 2_13
+      rect:
+        serializedVersion: 2
+        x: 887
+        y: 868
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b356e8a1f7a6bdd40800000000000000
+      internalID: 5610194854959015227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hit Particles 2_14
+      rect:
+        serializedVersion: 2
+        x: 901
+        y: 855
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a70f3310609c3fa50800000000000000
+      internalID: 6553802910381371514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hit Particles 2_15
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 848
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27a87cab7f3573430800000000000000
+      internalID: 3762568337147005554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hit Particles 2_16
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 774
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2e6e314488d1c880800000000000000
+      internalID: -8592348551504302545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hit Particles 2_17
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 794
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6dc0221e9f15c760800000000000000
+      internalID: 7477417520088010095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hit Particles 2_18
+      rect:
+        serializedVersion: 2
+        x: 902
+        y: 765
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a2f430678a2e4b60800000000000000
+      internalID: 7732164371164754593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hit Particles 2_19
+      rect:
+        serializedVersion: 2
+        x: 895
+        y: 586
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b7c2148d591e5b70800000000000000
+      internalID: 8889570603914414001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hit Particles 2_20
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 523
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 933622aff11df0800800000000000000
+      internalID: 580912812224832313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hit Particles 2_21
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 497
+        width: 16
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 818608ddb088904f0800000000000000
+      internalID: -862008269122541544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hit Particles 2_22
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 425
+        width: 46
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09deaf11e989e5e20800000000000000
+      internalID: 3341275778229398928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hit Particles 2_23
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 487
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94f913fa23701e030800000000000000
+      internalID: 3522104297849462601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hit Particles 2_24
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 456
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 531f28997e680c530800000000000000
+      internalID: 3873244008809689397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hit Particles 2_25
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 434
+        width: 9
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0f37d61c44b4a470800000000000000
+      internalID: 8405041043473907467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hit Particles 2_26
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 433
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7e6d10cb008bc940800000000000000
+      internalID: 5317484572997152383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hit Particles 2_27
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 442
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 801dbd4d3415c1330800000000000000
+      internalID: 3682907947058057480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hit Particles 2_28
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 410
+        width: 39
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a81d52fee5388880800000000000000
+      internalID: -8608571387334027101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hit Particles 2_29
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 432
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90e5c34fbb06436e0800000000000000
+      internalID: -1858754385824424439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hit Particles 2_30
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 429
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4af4956a243285710800000000000000
+      internalID: 1682133229988564900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hit Particles 2_31
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 413
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d299b0f1175f2cc80800000000000000
+      internalID: -8303804896716809939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hit Particles 2_32
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 415
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc748b8766580cd50800000000000000
+      internalID: 6755546116214245327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hit Particles 2_33
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 386
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b7564168258dfa60800000000000000
+      internalID: 7709464545605343161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hit Particles 2_34
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 396
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f16bc3dae5d90270800000000000000
+      internalID: 8217334199666565617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hit Particles 2_35
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 401
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6739efa9e0f996100800000000000000
+      internalID: 101787351671280502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hit Particles 2_36
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 292
+        width: 75
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44270863b54620cf0800000000000000
+      internalID: -287557083279101372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hit Particles 2_37
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 377
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5abd083a1f861dd00800000000000000
+      internalID: 995692379665128357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hit Particles 2_38
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 364
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f8ab1e6c13f25770800000000000000
+      internalID: 8598201942035638521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hit Particles 2_39
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 334
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ed8f8f20ad01c710800000000000000
+      internalID: 1711664315021364713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hit Particles 2_40
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 333
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 335fcb9314db53ff0800000000000000
+      internalID: -56931332433054413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hit Particles 2_41
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 316
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 187bcbfbfc5aaeb20800000000000000
+      internalID: 3164523999874824065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hit Particles 2_42
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 293
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a00e96f36a6295b0800000000000000
+      internalID: -5363107228672982879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hit Particles 2_43
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 281
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5905c717df8f997c0800000000000000
+      internalID: -4063943421310775147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hit Particles 2_44
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 281
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a3a074605a2cf570800000000000000
+      internalID: 8501716721339507620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hit Particles 2_45
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 277
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1e762c9baf8adcd0800000000000000
+      internalID: -2532553873220534757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hit Particles 2_46
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 235
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67e517b8287f7c340800000000000000
+      internalID: 4884144460963864182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hit Particles 2_47
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 198
+        width: 27
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f588a7f1eb7a71390800000000000000
+      internalID: -7847619390656051105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hit Particles 2_48
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 212
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8a982bec98dcea40800000000000000
+      internalID: 5398928221782186639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hit Particles 2_49
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 214
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 215fa2e70b3ab0060800000000000000
+      internalID: 6920805230811215122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hit Particles 2_50
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 202
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c65d008011d4d910800000000000000
+      internalID: 1861342414808897220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hit Particles 2_51
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 163
+        width: 40
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4167e0f14fe16e40800000000000000
+      internalID: 5648058474192920907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hit Particles 2_52
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 191
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b07bab833aa57b70800000000000000
+      internalID: 8896203777303605430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hit Particles 2_53
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 168
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79d97f7ed03296de0800000000000000
+      internalID: -1339500871532700265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hit Particles 2_54
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 173
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c871fc6b27671fb0800000000000000
+      internalID: -4677156251791951674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hit Particles 2_55
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 169
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b591ee8e3270d8d90800000000000000
+      internalID: -7094005987225495205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hit Particles 2_56
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 144
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39802a2d590a2ef50800000000000000
+      internalID: 6909261343684167827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hit Particles 2_57
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 108
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 610f8e81716137020800000000000000
+      internalID: 2338236919993397270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hit Particles 2_58
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 78
+        width: 52
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 064bd84037146d480800000000000000
+      internalID: -8874834053433543584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hit Particles 2_59
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 71
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28197e0b6d25984d0800000000000000
+      internalID: -3131880983815024254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hit Particles 2_60
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 51
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c95acc0b2448453c0800000000000000
+      internalID: -4371723916300999268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 93ae6d25dd5e6174dbae716a99b94d58
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Hit Particles 2_0: 1115688479249797525
+      Hit Particles 2_1: -2993876527616023719
+      Hit Particles 2_10: 1138860815214938506
+      Hit Particles 2_11: 3705706881326261810
+      Hit Particles 2_12: -8658065066125608070
+      Hit Particles 2_13: 5610194854959015227
+      Hit Particles 2_14: 6553802910381371514
+      Hit Particles 2_15: 3762568337147005554
+      Hit Particles 2_16: -8592348551504302545
+      Hit Particles 2_17: 7477417520088010095
+      Hit Particles 2_18: 7732164371164754593
+      Hit Particles 2_19: 8889570603914414001
+      Hit Particles 2_2: 5123079961113082955
+      Hit Particles 2_20: 580912812224832313
+      Hit Particles 2_21: -862008269122541544
+      Hit Particles 2_22: 3341275778229398928
+      Hit Particles 2_23: 3522104297849462601
+      Hit Particles 2_24: 3873244008809689397
+      Hit Particles 2_25: 8405041043473907467
+      Hit Particles 2_26: 5317484572997152383
+      Hit Particles 2_27: 3682907947058057480
+      Hit Particles 2_28: -8608571387334027101
+      Hit Particles 2_29: -1858754385824424439
+      Hit Particles 2_3: -6935032484657844149
+      Hit Particles 2_30: 1682133229988564900
+      Hit Particles 2_31: -8303804896716809939
+      Hit Particles 2_32: 6755546116214245327
+      Hit Particles 2_33: 7709464545605343161
+      Hit Particles 2_34: 8217334199666565617
+      Hit Particles 2_35: 101787351671280502
+      Hit Particles 2_36: -287557083279101372
+      Hit Particles 2_37: 995692379665128357
+      Hit Particles 2_38: 8598201942035638521
+      Hit Particles 2_39: 1711664315021364713
+      Hit Particles 2_4: 4210696876877706455
+      Hit Particles 2_40: -56931332433054413
+      Hit Particles 2_41: 3164523999874824065
+      Hit Particles 2_42: -5363107228672982879
+      Hit Particles 2_43: -4063943421310775147
+      Hit Particles 2_44: 8501716721339507620
+      Hit Particles 2_45: -2532553873220534757
+      Hit Particles 2_46: 4884144460963864182
+      Hit Particles 2_47: -7847619390656051105
+      Hit Particles 2_48: 5398928221782186639
+      Hit Particles 2_49: 6920805230811215122
+      Hit Particles 2_5: 3043519733312942199
+      Hit Particles 2_50: 1861342414808897220
+      Hit Particles 2_51: 5648058474192920907
+      Hit Particles 2_52: 8896203777303605430
+      Hit Particles 2_53: -1339500871532700265
+      Hit Particles 2_54: -4677156251791951674
+      Hit Particles 2_55: -7094005987225495205
+      Hit Particles 2_56: 6909261343684167827
+      Hit Particles 2_57: 2338236919993397270
+      Hit Particles 2_58: -8874834053433543584
+      Hit Particles 2_59: -3131880983815024254
+      Hit Particles 2_6: -8543926509377929248
+      Hit Particles 2_60: -4371723916300999268
+      Hit Particles 2_7: 8543427549594567210
+      Hit Particles 2_8: -874080085583201074
+      Hit Particles 2_9: 1823520047036430520
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

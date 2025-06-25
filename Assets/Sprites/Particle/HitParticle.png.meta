@@ -1,0 +1,2925 @@
+fileFormatVersion: 2
+guid: 1b5d4068e3a0151498a363bc81cb0ced
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8604577691342135864
+    second: "\u2014Pngtree\u2014blood spots_6160941_0"
+  - first:
+      213: 5412727042489972491
+    second: "\u2014Pngtree\u2014blood spots_6160941_1"
+  - first:
+      213: 1340436704815415196
+    second: "\u2014Pngtree\u2014blood spots_6160941_2"
+  - first:
+      213: -1460114417227975958
+    second: "\u2014Pngtree\u2014blood spots_6160941_3"
+  - first:
+      213: 1622140469501605451
+    second: "\u2014Pngtree\u2014blood spots_6160941_4"
+  - first:
+      213: -3217333022767682876
+    second: "\u2014Pngtree\u2014blood spots_6160941_5"
+  - first:
+      213: 3858575130172365232
+    second: "\u2014Pngtree\u2014blood spots_6160941_6"
+  - first:
+      213: 5666535505881649985
+    second: "\u2014Pngtree\u2014blood spots_6160941_7"
+  - first:
+      213: -3518801347995465228
+    second: "\u2014Pngtree\u2014blood spots_6160941_8"
+  - first:
+      213: 3691599267193347105
+    second: "\u2014Pngtree\u2014blood spots_6160941_9"
+  - first:
+      213: 4510275867822606321
+    second: "\u2014Pngtree\u2014blood spots_6160941_10"
+  - first:
+      213: -7249973766066715551
+    second: "\u2014Pngtree\u2014blood spots_6160941_11"
+  - first:
+      213: 5122402989105344139
+    second: "\u2014Pngtree\u2014blood spots_6160941_12"
+  - first:
+      213: -185254099163713874
+    second: "\u2014Pngtree\u2014blood spots_6160941_13"
+  - first:
+      213: 1079512311922744556
+    second: "\u2014Pngtree\u2014blood spots_6160941_14"
+  - first:
+      213: -6808316043666204084
+    second: "\u2014Pngtree\u2014blood spots_6160941_15"
+  - first:
+      213: -7679682521370121758
+    second: "\u2014Pngtree\u2014blood spots_6160941_16"
+  - first:
+      213: 1034684604107048839
+    second: "\u2014Pngtree\u2014blood spots_6160941_17"
+  - first:
+      213: -2732879276894611765
+    second: "\u2014Pngtree\u2014blood spots_6160941_18"
+  - first:
+      213: 3299068550227621937
+    second: "\u2014Pngtree\u2014blood spots_6160941_19"
+  - first:
+      213: 5645179880104654361
+    second: "\u2014Pngtree\u2014blood spots_6160941_20"
+  - first:
+      213: -8369961518388745827
+    second: "\u2014Pngtree\u2014blood spots_6160941_21"
+  - first:
+      213: -123273813379731532
+    second: "\u2014Pngtree\u2014blood spots_6160941_22"
+  - first:
+      213: 7030684262882484274
+    second: "\u2014Pngtree\u2014blood spots_6160941_23"
+  - first:
+      213: -5132294145067914042
+    second: "\u2014Pngtree\u2014blood spots_6160941_24"
+  - first:
+      213: -1184247080260489154
+    second: "\u2014Pngtree\u2014blood spots_6160941_25"
+  - first:
+      213: 3012572935625458273
+    second: "\u2014Pngtree\u2014blood spots_6160941_26"
+  - first:
+      213: -4474368056212008249
+    second: "\u2014Pngtree\u2014blood spots_6160941_27"
+  - first:
+      213: -5885842435510219575
+    second: "\u2014Pngtree\u2014blood spots_6160941_28"
+  - first:
+      213: 6311576372720929110
+    second: "\u2014Pngtree\u2014blood spots_6160941_29"
+  - first:
+      213: -4335928257953491140
+    second: "\u2014Pngtree\u2014blood spots_6160941_30"
+  - first:
+      213: -6674014684568910044
+    second: "\u2014Pngtree\u2014blood spots_6160941_31"
+  - first:
+      213: -4258274020195140819
+    second: "\u2014Pngtree\u2014blood spots_6160941_32"
+  - first:
+      213: 5100470166575549394
+    second: "\u2014Pngtree\u2014blood spots_6160941_33"
+  - first:
+      213: -4252468178650854082
+    second: "\u2014Pngtree\u2014blood spots_6160941_34"
+  - first:
+      213: -8188940516444150680
+    second: "\u2014Pngtree\u2014blood spots_6160941_35"
+  - first:
+      213: 4459571962386239072
+    second: "\u2014Pngtree\u2014blood spots_6160941_36"
+  - first:
+      213: 5112609073827885407
+    second: "\u2014Pngtree\u2014blood spots_6160941_37"
+  - first:
+      213: -116804798410181105
+    second: "\u2014Pngtree\u2014blood spots_6160941_38"
+  - first:
+      213: -8486751439939215551
+    second: "\u2014Pngtree\u2014blood spots_6160941_39"
+  - first:
+      213: 5932826233998977434
+    second: "\u2014Pngtree\u2014blood spots_6160941_40"
+  - first:
+      213: 3307213005576436363
+    second: "\u2014Pngtree\u2014blood spots_6160941_41"
+  - first:
+      213: -8666547712848310671
+    second: "\u2014Pngtree\u2014blood spots_6160941_42"
+  - first:
+      213: 4172739449950835021
+    second: "\u2014Pngtree\u2014blood spots_6160941_43"
+  - first:
+      213: 6866371275348633895
+    second: "\u2014Pngtree\u2014blood spots_6160941_44"
+  - first:
+      213: 7908166084314826839
+    second: "\u2014Pngtree\u2014blood spots_6160941_45"
+  - first:
+      213: 4445554225858767844
+    second: "\u2014Pngtree\u2014blood spots_6160941_46"
+  - first:
+      213: 3636139377287029792
+    second: "\u2014Pngtree\u2014blood spots_6160941_47"
+  - first:
+      213: -8024796787412581082
+    second: "\u2014Pngtree\u2014blood spots_6160941_48"
+  - first:
+      213: -3029893285299372129
+    second: "\u2014Pngtree\u2014blood spots_6160941_49"
+  - first:
+      213: -6788479152584290240
+    second: "\u2014Pngtree\u2014blood spots_6160941_50"
+  - first:
+      213: -5995060474096403929
+    second: "\u2014Pngtree\u2014blood spots_6160941_51"
+  - first:
+      213: 6558217187857381684
+    second: "\u2014Pngtree\u2014blood spots_6160941_52"
+  - first:
+      213: -3170406015904272062
+    second: "\u2014Pngtree\u2014blood spots_6160941_53"
+  - first:
+      213: 667172359103637588
+    second: "\u2014Pngtree\u2014blood spots_6160941_54"
+  - first:
+      213: 2398965342633967664
+    second: "\u2014Pngtree\u2014blood spots_6160941_55"
+  - first:
+      213: 3871028371086408447
+    second: "\u2014Pngtree\u2014blood spots_6160941_56"
+  - first:
+      213: 9139486269721065980
+    second: "\u2014Pngtree\u2014blood spots_6160941_57"
+  - first:
+      213: 4212256763053380629
+    second: "\u2014Pngtree\u2014blood spots_6160941_58"
+  - first:
+      213: 2416955009010746170
+    second: "\u2014Pngtree\u2014blood spots_6160941_59"
+  - first:
+      213: -1953596236253498138
+    second: "\u2014Pngtree\u2014blood spots_6160941_60"
+  - first:
+      213: -8420313762611519595
+    second: "\u2014Pngtree\u2014blood spots_6160941_61"
+  - first:
+      213: 4504710237399904223
+    second: "\u2014Pngtree\u2014blood spots_6160941_62"
+  - first:
+      213: 2665291911958260783
+    second: "\u2014Pngtree\u2014blood spots_6160941_63"
+  - first:
+      213: 4437587761977139468
+    second: "\u2014Pngtree\u2014blood spots_6160941_64"
+  - first:
+      213: -272260054573692011
+    second: "\u2014Pngtree\u2014blood spots_6160941_65"
+  - first:
+      213: -3704708116891576929
+    second: "\u2014Pngtree\u2014blood spots_6160941_66"
+  - first:
+      213: 8695638389027338697
+    second: "\u2014Pngtree\u2014blood spots_6160941_67"
+  - first:
+      213: -5812389509646438390
+    second: "\u2014Pngtree\u2014blood spots_6160941_68"
+  - first:
+      213: 5518355378571766528
+    second: "\u2014Pngtree\u2014blood spots_6160941_69"
+  - first:
+      213: -3845547525894327183
+    second: "\u2014Pngtree\u2014blood spots_6160941_70"
+  - first:
+      213: -1577067851161763825
+    second: "\u2014Pngtree\u2014blood spots_6160941_71"
+  - first:
+      213: -1923583149346412092
+    second: "\u2014Pngtree\u2014blood spots_6160941_72"
+  - first:
+      213: 7947119541746489659
+    second: "\u2014Pngtree\u2014blood spots_6160941_73"
+  - first:
+      213: 1424480271398354741
+    second: "\u2014Pngtree\u2014blood spots_6160941_74"
+  - first:
+      213: 2339887410313871905
+    second: "\u2014Pngtree\u2014blood spots_6160941_75"
+  - first:
+      213: 3801556219355446097
+    second: "\u2014Pngtree\u2014blood spots_6160941_76"
+  - first:
+      213: -6747389597169658290
+    second: "\u2014Pngtree\u2014blood spots_6160941_77"
+  - first:
+      213: 5158354897148680735
+    second: "\u2014Pngtree\u2014blood spots_6160941_78"
+  - first:
+      213: 2041514117662456527
+    second: "\u2014Pngtree\u2014blood spots_6160941_79"
+  - first:
+      213: 6103267398969897214
+    second: "\u2014Pngtree\u2014blood spots_6160941_80"
+  - first:
+      213: 5252889406028911004
+    second: "\u2014Pngtree\u2014blood spots_6160941_81"
+  - first:
+      213: 3321175721776506784
+    second: "\u2014Pngtree\u2014blood spots_6160941_82"
+  - first:
+      213: 8192595013298369633
+    second: "\u2014Pngtree\u2014blood spots_6160941_83"
+  - first:
+      213: 2761849766677945056
+    second: "\u2014Pngtree\u2014blood spots_6160941_84"
+  - first:
+      213: -2699240182423491860
+    second: "\u2014Pngtree\u2014blood spots_6160941_85"
+  - first:
+      213: 2389501896588676469
+    second: "\u2014Pngtree\u2014blood spots_6160941_86"
+  - first:
+      213: -4165301443488341736
+    second: "\u2014Pngtree\u2014blood spots_6160941_87"
+  - first:
+      213: -5679750459251453794
+    second: "\u2014Pngtree\u2014blood spots_6160941_88"
+  - first:
+      213: -1349462248443616065
+    second: "\u2014Pngtree\u2014blood spots_6160941_89"
+  - first:
+      213: 2378814477846474712
+    second: "\u2014Pngtree\u2014blood spots_6160941_90"
+  - first:
+      213: -8188704285314102032
+    second: "\u2014Pngtree\u2014blood spots_6160941_91"
+  - first:
+      213: 4259132388073375616
+    second: "\u2014Pngtree\u2014blood spots_6160941_92"
+  - first:
+      213: -2144216247041850287
+    second: "\u2014Pngtree\u2014blood spots_6160941_93"
+  - first:
+      213: -6039297092384228401
+    second: "\u2014Pngtree\u2014blood spots_6160941_94"
+  - first:
+      213: 5649517242298027845
+    second: "\u2014Pngtree\u2014blood spots_6160941_95"
+  - first:
+      213: -3682403454730521386
+    second: "\u2014Pngtree\u2014blood spots_6160941_96"
+  - first:
+      213: -3021134424140737725
+    second: "\u2014Pngtree\u2014blood spots_6160941_97"
+  - first:
+      213: -2854232963957092694
+    second: "\u2014Pngtree\u2014blood spots_6160941_98"
+  - first:
+      213: 9026115592966482995
+    second: "\u2014Pngtree\u2014blood spots_6160941_99"
+  - first:
+      213: 217413828085004083
+    second: "\u2014Pngtree\u2014blood spots_6160941_100"
+  - first:
+      213: -7624276425037255318
+    second: "\u2014Pngtree\u2014blood spots_6160941_101"
+  - first:
+      213: 7410807631162790239
+    second: "\u2014Pngtree\u2014blood spots_6160941_102"
+  - first:
+      213: -1226473303544973964
+    second: "\u2014Pngtree\u2014blood spots_6160941_103"
+  - first:
+      213: -353591178490482240
+    second: "\u2014Pngtree\u2014blood spots_6160941_104"
+  - first:
+      213: -3922845609865965365
+    second: "\u2014Pngtree\u2014blood spots_6160941_105"
+  - first:
+      213: -4179363192164616118
+    second: "\u2014Pngtree\u2014blood spots_6160941_106"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014blood spots_6160941_0"
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 2230
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cd1d41cd26669880800000000000000
+      internalID: -8604577691342135864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014blood spots_6160941_1"
+      rect:
+        serializedVersion: 2
+        x: 1058
+        y: 2274
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b07f3c9319edd1b40800000000000000
+      internalID: 5412727042489972491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014blood spots_6160941_2"
+      rect:
+        serializedVersion: 2
+        x: 1352
+        y: 2108
+        width: 190
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9ffa62c4103a9210800000000000000
+      internalID: 1340436704815415196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014blood spots_6160941_3"
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 2218
+        width: 10
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae233bd6ca1acbbe0800000000000000
+      internalID: -1460114417227975958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014blood spots_6160941_4"
+      rect:
+        serializedVersion: 2
+        x: 1926
+        y: 2118
+        width: 61
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b46bd6c9920038610800000000000000
+      internalID: 1622140469501605451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014blood spots_6160941_5"
+      rect:
+        serializedVersion: 2
+        x: 1228
+        y: 2208
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ca6cc579acb953d0800000000000000
+      internalID: -3217333022767682876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014blood spots_6160941_6"
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 2108
+        width: 101
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b9941523a96c8530800000000000000
+      internalID: 3858575130172365232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014blood spots_6160941_7"
+      rect:
+        serializedVersion: 2
+        x: 956
+        y: 2155
+        width: 10
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 143d63f150493ae40800000000000000
+      internalID: 5666535505881649985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014blood spots_6160941_8"
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 2154
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f9809141d4ba2fc0800000000000000
+      internalID: -3518801347995465228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014blood spots_6160941_9"
+      rect:
+        serializedVersion: 2
+        x: 1707
+        y: 2160
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12cd62e79f13b3330800000000000000
+      internalID: 3691599267193347105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014blood spots_6160941_10"
+      rect:
+        serializedVersion: 2
+        x: 2007
+        y: 2156
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f7459c5108b79e30800000000000000
+      internalID: 4510275867822606321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014blood spots_6160941_11"
+      rect:
+        serializedVersion: 2
+        x: 1599
+        y: 2036
+        width: 41
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16441b2954be26b90800000000000000
+      internalID: -7249973766066715551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014blood spots_6160941_12"
+      rect:
+        serializedVersion: 2
+        x: 1653
+        y: 2035
+        width: 63
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8ee502016e661740800000000000000
+      internalID: 5122402989105344139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014blood spots_6160941_13"
+      rect:
+        serializedVersion: 2
+        x: 1903
+        y: 2096
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eae692ad068dd6df0800000000000000
+      internalID: -185254099163713874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014blood spots_6160941_14"
+      rect:
+        serializedVersion: 2
+        x: 1951
+        y: 2043
+        width: 39
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cecd0da6ab23bfe00800000000000000
+      internalID: 1079512311922744556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014blood spots_6160941_15"
+      rect:
+        serializedVersion: 2
+        x: 1891
+        y: 2026
+        width: 29
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4adeaa51a00481a0800000000000000
+      internalID: -6808316043666204084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014blood spots_6160941_16"
+      rect:
+        serializedVersion: 2
+        x: 1990
+        y: 2072
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e925fd7f694c6590800000000000000
+      internalID: -7679682521370121758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014blood spots_6160941_17"
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 1949
+        width: 52
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 787cd5a5a20fb5e00800000000000000
+      internalID: 1034684604107048839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014blood spots_6160941_18"
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 2027
+        width: 7
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc69baee6ccd21ad0800000000000000
+      internalID: -2732879276894611765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014blood spots_6160941_19"
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 1961
+        width: 91
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 138faf10e55a8cd20800000000000000
+      internalID: 3299068550227621937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014blood spots_6160941_20"
+      rect:
+        serializedVersion: 2
+        x: 1018
+        y: 1925
+        width: 136
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 916f1d60135b75e40800000000000000
+      internalID: 5645179880104654361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014blood spots_6160941_21"
+      rect:
+        serializedVersion: 2
+        x: 1812
+        y: 2007
+        width: 32
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d99efb0585ce7db80800000000000000
+      internalID: -8369961518388745827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014blood spots_6160941_22"
+      rect:
+        serializedVersion: 2
+        x: 1853
+        y: 2046
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bfa46fae1b0a4ef0800000000000000
+      internalID: -123273813379731532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014blood spots_6160941_23"
+      rect:
+        serializedVersion: 2
+        x: 1223
+        y: 1989
+        width: 53
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2302a014612029160800000000000000
+      internalID: 7030684262882484274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014blood spots_6160941_24"
+      rect:
+        serializedVersion: 2
+        x: 1333
+        y: 1953
+        width: 83
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cce868caad66c8b0800000000000000
+      internalID: -5132294145067914042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014blood spots_6160941_25"
+      rect:
+        serializedVersion: 2
+        x: 1701
+        y: 2012
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e30b7ce0e85b09fe0800000000000000
+      internalID: -1184247080260489154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014blood spots_6160941_26"
+      rect:
+        serializedVersion: 2
+        x: 1740
+        y: 2017
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16249e7af1fcec920800000000000000
+      internalID: 3012572935625458273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014blood spots_6160941_27"
+      rect:
+        serializedVersion: 2
+        x: 1964
+        y: 1977
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c2d02785f9d7e1c0800000000000000
+      internalID: -4474368056212008249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014blood spots_6160941_28"
+      rect:
+        serializedVersion: 2
+        x: 2024
+        y: 1981
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cc4e7b4d79415ea0800000000000000
+      internalID: -5885842435510219575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014blood spots_6160941_29"
+      rect:
+        serializedVersion: 2
+        x: 1591
+        y: 1971
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65987c45549379750800000000000000
+      internalID: 6311576372720929110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014blood spots_6160941_30"
+      rect:
+        serializedVersion: 2
+        x: 1897
+        y: 1962
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c379a1dd830b3d3c0800000000000000
+      internalID: -4335928257953491140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014blood spots_6160941_31"
+      rect:
+        serializedVersion: 2
+        x: 1991
+        y: 1959
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 427878c31032163a0800000000000000
+      internalID: -6674014684568910044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014blood spots_6160941_32"
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 1896
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2b7ef5075297e4c0800000000000000
+      internalID: -4258274020195140819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014blood spots_6160941_33"
+      rect:
+        serializedVersion: 2
+        x: 885
+        y: 1870
+        width: 93
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2db8632d79288c640800000000000000
+      internalID: 5100470166575549394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014blood spots_6160941_34"
+      rect:
+        serializedVersion: 2
+        x: 1487
+        y: 1803
+        width: 21
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3d0dd8d8b23cf4c0800000000000000
+      internalID: -4252468178650854082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014blood spots_6160941_35"
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 1887
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 864ea86bcf90b5e80800000000000000
+      internalID: -8188940516444150680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014blood spots_6160941_36"
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 1851
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06ec25c621593ed30800000000000000
+      internalID: 4459571962386239072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014blood spots_6160941_37"
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 1844
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5133f86dd2a3f640800000000000000
+      internalID: 5112609073827885407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014blood spots_6160941_38"
+      rect:
+        serializedVersion: 2
+        x: 881
+        y: 1859
+        width: 26
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0633ba97a6016ef0800000000000000
+      internalID: -116804798410181105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014blood spots_6160941_39"
+      rect:
+        serializedVersion: 2
+        x: 1002
+        y: 1857
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14f5365b780093a80800000000000000
+      internalID: -8486751439939215551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014blood spots_6160941_40"
+      rect:
+        serializedVersion: 2
+        x: 2009
+        y: 1807
+        width: 51
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a99a0afb602a55250800000000000000
+      internalID: 5932826233998977434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014blood spots_6160941_41"
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 243
+        width: 1181
+        height: 1604
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8a7fe9c4b495ed20800000000000000
+      internalID: 3307213005576436363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014blood spots_6160941_42"
+      rect:
+        serializedVersion: 2
+        x: 954
+        y: 1839
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17ec3b2c5cc3ab780800000000000000
+      internalID: -8666547712848310671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014blood spots_6160941_43"
+      rect:
+        serializedVersion: 2
+        x: 967
+        y: 1820
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d41149eeb6c88e930800000000000000
+      internalID: 4172739449950835021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014blood spots_6160941_44"
+      rect:
+        serializedVersion: 2
+        x: 1209
+        y: 1747
+        width: 80
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 729e91b9b404a4f50800000000000000
+      internalID: 6866371275348633895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014blood spots_6160941_45"
+      rect:
+        serializedVersion: 2
+        x: 1001
+        y: 1823
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 758806887237fbd60800000000000000
+      internalID: 7908166084314826839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014blood spots_6160941_46"
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 1741
+        width: 67
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4eb6c0ec308c1bd30800000000000000
+      internalID: 4445554225858767844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014blood spots_6160941_47"
+      rect:
+        serializedVersion: 2
+        x: 823
+        y: 1789
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 024e001af79267230800000000000000
+      internalID: 3636139377287029792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014blood spots_6160941_48"
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 1778
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 625c39bc6d132a090800000000000000
+      internalID: -8024796787412581082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014blood spots_6160941_49"
+      rect:
+        serializedVersion: 2
+        x: 1129
+        y: 1780
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9fb36e2c18a3f5d0800000000000000
+      internalID: -3029893285299372129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014blood spots_6160941_50"
+      rect:
+        serializedVersion: 2
+        x: 1191
+        y: 1752
+        width: 39
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04091197d2a7ac1a0800000000000000
+      internalID: -6788479152584290240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014blood spots_6160941_51"
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 1764
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72abf7213444dcca0800000000000000
+      internalID: -5995060474096403929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014blood spots_6160941_52"
+      rect:
+        serializedVersion: 2
+        x: 1002
+        y: 1752
+        width: 25
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 439b91219c7730b50800000000000000
+      internalID: 6558217187857381684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014blood spots_6160941_53"
+      rect:
+        serializedVersion: 2
+        x: 1038
+        y: 1749
+        width: 31
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 241b34ca6847004d0800000000000000
+      internalID: -3170406015904272062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014blood spots_6160941_54"
+      rect:
+        serializedVersion: 2
+        x: 1410
+        y: 1771
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 458e45cc9b5424900800000000000000
+      internalID: 667172359103637588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014blood spots_6160941_55"
+      rect:
+        serializedVersion: 2
+        x: 1760
+        y: 1769
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 030cb24d446da4120800000000000000
+      internalID: 2398965342633967664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014blood spots_6160941_56"
+      rect:
+        serializedVersion: 2
+        x: 921
+        y: 1743
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffa701e3bc7a8b530800000000000000
+      internalID: 3871028371086408447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014blood spots_6160941_57"
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 1752
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf9b848d65af5de70800000000000000
+      internalID: 9139486269721065980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014blood spots_6160941_58"
+      rect:
+        serializedVersion: 2
+        x: 1356
+        y: 1730
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51498806531f47a30800000000000000
+      internalID: 4212256763053380629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014blood spots_6160941_59"
+      rect:
+        serializedVersion: 2
+        x: 1955
+        y: 1743
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a33cf2e66cfba8120800000000000000
+      internalID: 2416955009010746170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014blood spots_6160941_60"
+      rect:
+        serializedVersion: 2
+        x: 917
+        y: 1734
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e4f19fd29e63e4e0800000000000000
+      internalID: -1953596236253498138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014blood spots_6160941_61"
+      rect:
+        serializedVersion: 2
+        x: 1049
+        y: 1725
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59f1532ee39052b80800000000000000
+      internalID: -8420313762611519595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014blood spots_6160941_62"
+      rect:
+        serializedVersion: 2
+        x: 2007
+        y: 1733
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdf694c0812f38e30800000000000000
+      internalID: 4504710237399904223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014blood spots_6160941_63"
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 1594
+        width: 58
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2c6ef26fd40df420800000000000000
+      internalID: 2665291911958260783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014blood spots_6160941_64"
+      rect:
+        serializedVersion: 2
+        x: 1911
+        y: 1659
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c01a444ee8a759d30800000000000000
+      internalID: 4437587761977139468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014blood spots_6160941_65"
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 1603
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59b4b904cecb83cf0800000000000000
+      internalID: -272260054573692011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014blood spots_6160941_66"
+      rect:
+        serializedVersion: 2
+        x: 1499
+        y: 1470
+        width: 331
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f95db28989b369cc0800000000000000
+      internalID: -3704708116891576929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014blood spots_6160941_67"
+      rect:
+        serializedVersion: 2
+        x: 1886
+        y: 1458
+        width: 133
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c979391b0d1da870800000000000000
+      internalID: 8695638389027338697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014blood spots_6160941_68"
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 1434
+        width: 60
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a00315d498e365fa0800000000000000
+      internalID: -5812389509646438390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014blood spots_6160941_69"
+      rect:
+        serializedVersion: 2
+        x: 725
+        y: 1515
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00be224baf2259c40800000000000000
+      internalID: 5518355378571766528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014blood spots_6160941_70"
+      rect:
+        serializedVersion: 2
+        x: 1207
+        y: 1045
+        width: 853
+        height: 508
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 174bf2856eed1aac0800000000000000
+      internalID: -3845547525894327183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014blood spots_6160941_71"
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1444
+        width: 33
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0080d025212d1ae0800000000000000
+      internalID: -1577067851161763825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014blood spots_6160941_72"
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 1369
+        width: 26
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c9a747315f0e45e0800000000000000
+      internalID: -1923583149346412092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014blood spots_6160941_73"
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 1423
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b395d591e17d94e60800000000000000
+      internalID: 7947119541746489659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014blood spots_6160941_74"
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 1422
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53f30467245c4c310800000000000000
+      internalID: 1424480271398354741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014blood spots_6160941_75"
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 1378
+        width: 40
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 122ca22d333f87020800000000000000
+      internalID: 2339887410313871905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014blood spots_6160941_76"
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 1408
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15bbb507d37d1c430800000000000000
+      internalID: 3801556219355446097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014blood spots_6160941_77"
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 1336
+        width: 60
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e46598b19e47c52a0800000000000000
+      internalID: -6747389597169658290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014blood spots_6160941_78"
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1395
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1a91f5e278269740800000000000000
+      internalID: 5158354897148680735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014blood spots_6160941_79"
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 1224
+        width: 78
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fca373b064ae45c10800000000000000
+      internalID: 2041514117662456527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014blood spots_6160941_80"
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 1300
+        width: 26
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef0b2d4ec5923b450800000000000000
+      internalID: 6103267398969897214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014blood spots_6160941_81"
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 1322
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9114c2751306e840800000000000000
+      internalID: 5252889406028911004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014blood spots_6160941_82"
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 1304
+        width: 42
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a7e32df8bf271e20800000000000000
+      internalID: 3321175721776506784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014blood spots_6160941_83"
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 1249
+        width: 64
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 164394422c1f1b170800000000000000
+      internalID: 8192595013298369633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014blood spots_6160941_84"
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 344
+        width: 504
+        height: 878
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ea95d9dabf045620800000000000000
+      internalID: 2761849766677945056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014blood spots_6160941_85"
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1217
+        width: 10
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ceaef23fa5f5a8ad0800000000000000
+      internalID: -2699240182423491860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014blood spots_6160941_86"
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 1093
+        width: 14
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57d4a489057392120800000000000000
+      internalID: 2389501896588676469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014blood spots_6160941_87"
+      rect:
+        serializedVersion: 2
+        x: 1780
+        y: 1037
+        width: 93
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 811a476e760e136c0800000000000000
+      internalID: -4165301443488341736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014blood spots_6160941_88"
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 1018
+        width: 10
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e909477cc097d21b0800000000000000
+      internalID: -5679750459251453794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014blood spots_6160941_89"
+      rect:
+        serializedVersion: 2
+        x: 1901
+        y: 1022
+        width: 37
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb4e7bb1c3fb54de0800000000000000
+      internalID: -1349462248443616065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014blood spots_6160941_90"
+      rect:
+        serializedVersion: 2
+        x: 2016
+        y: 964
+        width: 44
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8df68920a2f330120800000000000000
+      internalID: 2378814477846474712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014blood spots_6160941_91"
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 988
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fc422f86d0eb5e80800000000000000
+      internalID: -8188704285314102032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014blood spots_6160941_92"
+      rect:
+        serializedVersion: 2
+        x: 1974
+        y: 1000
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0878972575a7b1b30800000000000000
+      internalID: 4259132388073375616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014blood spots_6160941_93"
+      rect:
+        serializedVersion: 2
+        x: 1884
+        y: 971
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15403711fa63e32e0800000000000000
+      internalID: -2144216247041850287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014blood spots_6160941_94"
+      rect:
+        serializedVersion: 2
+        x: 1885
+        y: 939
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcb7363ca4b103ca0800000000000000
+      internalID: -6039297092384228401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014blood spots_6160941_95"
+      rect:
+        serializedVersion: 2
+        x: 1836
+        y: 774
+        width: 72
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54f4e9bdffd176e40800000000000000
+      internalID: 5649517242298027845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014blood spots_6160941_96"
+      rect:
+        serializedVersion: 2
+        x: 2003
+        y: 714
+        width: 57
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d4bd11719975ecc0800000000000000
+      internalID: -3682403454730521386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014blood spots_6160941_97"
+      rect:
+        serializedVersion: 2
+        x: 1831
+        y: 747
+        width: 33
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34313667f36c216d0800000000000000
+      internalID: -3021134424140737725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014blood spots_6160941_98"
+      rect:
+        serializedVersion: 2
+        x: 1895
+        y: 734
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aae802ddd3ab368d0800000000000000
+      internalID: -2854232963957092694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014blood spots_6160941_99"
+      rect:
+        serializedVersion: 2
+        x: 1823
+        y: 704
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33ca1643f44334d70800000000000000
+      internalID: 9026115592966482995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014blood spots_6160941_100"
+      rect:
+        serializedVersion: 2
+        x: 1851
+        y: 664
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 337b34889b8640300800000000000000
+      internalID: 217413828085004083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014blood spots_6160941_101"
+      rect:
+        serializedVersion: 2
+        x: 1982
+        y: 669
+        width: 78
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6de4409cf0213690800000000000000
+      internalID: -7624276425037255318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014blood spots_6160941_102"
+      rect:
+        serializedVersion: 2
+        x: 1924
+        y: 632
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f515632c64a78d660800000000000000
+      internalID: 7410807631162790239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014blood spots_6160941_103"
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 236
+        width: 14
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 475b3bf4701bafee0800000000000000
+      internalID: -1226473303544973964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014blood spots_6160941_104"
+      rect:
+        serializedVersion: 2
+        x: 1419
+        y: 242
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c1fc5252bac71bf0800000000000000
+      internalID: -353591178490482240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014blood spots_6160941_105"
+      rect:
+        serializedVersion: 2
+        x: 1689
+        y: 235
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc01d33b3b04f89c0800000000000000
+      internalID: -3922845609865965365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014blood spots_6160941_106"
+      rect:
+        serializedVersion: 2
+        x: 1356
+        y: 198
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a487fa7e15beff5c0800000000000000
+      internalID: -4179363192164616118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      "\u2014Pngtree\u2014blood spots_6160941_0": -8604577691342135864
+      "\u2014Pngtree\u2014blood spots_6160941_1": 5412727042489972491
+      "\u2014Pngtree\u2014blood spots_6160941_10": 4510275867822606321
+      "\u2014Pngtree\u2014blood spots_6160941_100": 217413828085004083
+      "\u2014Pngtree\u2014blood spots_6160941_101": -7624276425037255318
+      "\u2014Pngtree\u2014blood spots_6160941_102": 7410807631162790239
+      "\u2014Pngtree\u2014blood spots_6160941_103": -1226473303544973964
+      "\u2014Pngtree\u2014blood spots_6160941_104": -353591178490482240
+      "\u2014Pngtree\u2014blood spots_6160941_105": -3922845609865965365
+      "\u2014Pngtree\u2014blood spots_6160941_106": -4179363192164616118
+      "\u2014Pngtree\u2014blood spots_6160941_11": -7249973766066715551
+      "\u2014Pngtree\u2014blood spots_6160941_12": 5122402989105344139
+      "\u2014Pngtree\u2014blood spots_6160941_13": -185254099163713874
+      "\u2014Pngtree\u2014blood spots_6160941_14": 1079512311922744556
+      "\u2014Pngtree\u2014blood spots_6160941_15": -6808316043666204084
+      "\u2014Pngtree\u2014blood spots_6160941_16": -7679682521370121758
+      "\u2014Pngtree\u2014blood spots_6160941_17": 1034684604107048839
+      "\u2014Pngtree\u2014blood spots_6160941_18": -2732879276894611765
+      "\u2014Pngtree\u2014blood spots_6160941_19": 3299068550227621937
+      "\u2014Pngtree\u2014blood spots_6160941_2": 1340436704815415196
+      "\u2014Pngtree\u2014blood spots_6160941_20": 5645179880104654361
+      "\u2014Pngtree\u2014blood spots_6160941_21": -8369961518388745827
+      "\u2014Pngtree\u2014blood spots_6160941_22": -123273813379731532
+      "\u2014Pngtree\u2014blood spots_6160941_23": 7030684262882484274
+      "\u2014Pngtree\u2014blood spots_6160941_24": -5132294145067914042
+      "\u2014Pngtree\u2014blood spots_6160941_25": -1184247080260489154
+      "\u2014Pngtree\u2014blood spots_6160941_26": 3012572935625458273
+      "\u2014Pngtree\u2014blood spots_6160941_27": -4474368056212008249
+      "\u2014Pngtree\u2014blood spots_6160941_28": -5885842435510219575
+      "\u2014Pngtree\u2014blood spots_6160941_29": 6311576372720929110
+      "\u2014Pngtree\u2014blood spots_6160941_3": -1460114417227975958
+      "\u2014Pngtree\u2014blood spots_6160941_30": -4335928257953491140
+      "\u2014Pngtree\u2014blood spots_6160941_31": -6674014684568910044
+      "\u2014Pngtree\u2014blood spots_6160941_32": -4258274020195140819
+      "\u2014Pngtree\u2014blood spots_6160941_33": 5100470166575549394
+      "\u2014Pngtree\u2014blood spots_6160941_34": -4252468178650854082
+      "\u2014Pngtree\u2014blood spots_6160941_35": -8188940516444150680
+      "\u2014Pngtree\u2014blood spots_6160941_36": 4459571962386239072
+      "\u2014Pngtree\u2014blood spots_6160941_37": 5112609073827885407
+      "\u2014Pngtree\u2014blood spots_6160941_38": -116804798410181105
+      "\u2014Pngtree\u2014blood spots_6160941_39": -8486751439939215551
+      "\u2014Pngtree\u2014blood spots_6160941_4": 1622140469501605451
+      "\u2014Pngtree\u2014blood spots_6160941_40": 5932826233998977434
+      "\u2014Pngtree\u2014blood spots_6160941_41": 3307213005576436363
+      "\u2014Pngtree\u2014blood spots_6160941_42": -8666547712848310671
+      "\u2014Pngtree\u2014blood spots_6160941_43": 4172739449950835021
+      "\u2014Pngtree\u2014blood spots_6160941_44": 6866371275348633895
+      "\u2014Pngtree\u2014blood spots_6160941_45": 7908166084314826839
+      "\u2014Pngtree\u2014blood spots_6160941_46": 4445554225858767844
+      "\u2014Pngtree\u2014blood spots_6160941_47": 3636139377287029792
+      "\u2014Pngtree\u2014blood spots_6160941_48": -8024796787412581082
+      "\u2014Pngtree\u2014blood spots_6160941_49": -3029893285299372129
+      "\u2014Pngtree\u2014blood spots_6160941_5": -3217333022767682876
+      "\u2014Pngtree\u2014blood spots_6160941_50": -6788479152584290240
+      "\u2014Pngtree\u2014blood spots_6160941_51": -5995060474096403929
+      "\u2014Pngtree\u2014blood spots_6160941_52": 6558217187857381684
+      "\u2014Pngtree\u2014blood spots_6160941_53": -3170406015904272062
+      "\u2014Pngtree\u2014blood spots_6160941_54": 667172359103637588
+      "\u2014Pngtree\u2014blood spots_6160941_55": 2398965342633967664
+      "\u2014Pngtree\u2014blood spots_6160941_56": 3871028371086408447
+      "\u2014Pngtree\u2014blood spots_6160941_57": 9139486269721065980
+      "\u2014Pngtree\u2014blood spots_6160941_58": 4212256763053380629
+      "\u2014Pngtree\u2014blood spots_6160941_59": 2416955009010746170
+      "\u2014Pngtree\u2014blood spots_6160941_6": 3858575130172365232
+      "\u2014Pngtree\u2014blood spots_6160941_60": -1953596236253498138
+      "\u2014Pngtree\u2014blood spots_6160941_61": -8420313762611519595
+      "\u2014Pngtree\u2014blood spots_6160941_62": 4504710237399904223
+      "\u2014Pngtree\u2014blood spots_6160941_63": 2665291911958260783
+      "\u2014Pngtree\u2014blood spots_6160941_64": 4437587761977139468
+      "\u2014Pngtree\u2014blood spots_6160941_65": -272260054573692011
+      "\u2014Pngtree\u2014blood spots_6160941_66": -3704708116891576929
+      "\u2014Pngtree\u2014blood spots_6160941_67": 8695638389027338697
+      "\u2014Pngtree\u2014blood spots_6160941_68": -5812389509646438390
+      "\u2014Pngtree\u2014blood spots_6160941_69": 5518355378571766528
+      "\u2014Pngtree\u2014blood spots_6160941_7": 5666535505881649985
+      "\u2014Pngtree\u2014blood spots_6160941_70": -3845547525894327183
+      "\u2014Pngtree\u2014blood spots_6160941_71": -1577067851161763825
+      "\u2014Pngtree\u2014blood spots_6160941_72": -1923583149346412092
+      "\u2014Pngtree\u2014blood spots_6160941_73": 7947119541746489659
+      "\u2014Pngtree\u2014blood spots_6160941_74": 1424480271398354741
+      "\u2014Pngtree\u2014blood spots_6160941_75": 2339887410313871905
+      "\u2014Pngtree\u2014blood spots_6160941_76": 3801556219355446097
+      "\u2014Pngtree\u2014blood spots_6160941_77": -6747389597169658290
+      "\u2014Pngtree\u2014blood spots_6160941_78": 5158354897148680735
+      "\u2014Pngtree\u2014blood spots_6160941_79": 2041514117662456527
+      "\u2014Pngtree\u2014blood spots_6160941_8": -3518801347995465228
+      "\u2014Pngtree\u2014blood spots_6160941_80": 6103267398969897214
+      "\u2014Pngtree\u2014blood spots_6160941_81": 5252889406028911004
+      "\u2014Pngtree\u2014blood spots_6160941_82": 3321175721776506784
+      "\u2014Pngtree\u2014blood spots_6160941_83": 8192595013298369633
+      "\u2014Pngtree\u2014blood spots_6160941_84": 2761849766677945056
+      "\u2014Pngtree\u2014blood spots_6160941_85": -2699240182423491860
+      "\u2014Pngtree\u2014blood spots_6160941_86": 2389501896588676469
+      "\u2014Pngtree\u2014blood spots_6160941_87": -4165301443488341736
+      "\u2014Pngtree\u2014blood spots_6160941_88": -5679750459251453794
+      "\u2014Pngtree\u2014blood spots_6160941_89": -1349462248443616065
+      "\u2014Pngtree\u2014blood spots_6160941_9": 3691599267193347105
+      "\u2014Pngtree\u2014blood spots_6160941_90": 2378814477846474712
+      "\u2014Pngtree\u2014blood spots_6160941_91": -8188704285314102032
+      "\u2014Pngtree\u2014blood spots_6160941_92": 4259132388073375616
+      "\u2014Pngtree\u2014blood spots_6160941_93": -2144216247041850287
+      "\u2014Pngtree\u2014blood spots_6160941_94": -6039297092384228401
+      "\u2014Pngtree\u2014blood spots_6160941_95": 5649517242298027845
+      "\u2014Pngtree\u2014blood spots_6160941_96": -3682403454730521386
+      "\u2014Pngtree\u2014blood spots_6160941_97": -3021134424140737725
+      "\u2014Pngtree\u2014blood spots_6160941_98": -2854232963957092694
+      "\u2014Pngtree\u2014blood spots_6160941_99": 9026115592966482995
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
