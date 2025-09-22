@@ -25,7 +25,7 @@ public class UIManager : MonoBehaviour
     public TextMeshProUGUI livesText;
 
     [Header("Star UI")]
-    public Image[] starIcons; // Assign only FULL star images (3), disable them by default
+    public Image[] starIcons; 
     private int currentStarIndex = 0;
 
     [Header("Scene Info")]
@@ -36,7 +36,7 @@ public class UIManager : MonoBehaviour
     private bool isPaused = false;
     private bool isMusicOn = true;
     private bool isUIHidden = false;
-    private bool waitingForTouchToShowUI = false; // new flag
+    private bool waitingForTouchToShowUI = false; 
     private float touchBlockTimer = 0f;
 
     [Header("Setting Sound Effects")]
@@ -63,7 +63,7 @@ public class UIManager : MonoBehaviour
         sfxSource = gameObject.AddComponent<AudioSource>();
         sfxSource.playOnAwake = false;
         sfxSource.loop = false;
-        sfxSource.volume = 1f; // Adjust volume if needed
+        sfxSource.volume = 1f; 
 
 
     }
@@ -145,7 +145,6 @@ public class UIManager : MonoBehaviour
 
     public void OpenSettings()
     {
-        // Play click sound effect
         if (clickSFX != null && sfxSource != null)
         {
             sfxSource.PlayOneShot(clickSFX);
@@ -203,7 +202,7 @@ public class UIManager : MonoBehaviour
     {
         isUIHidden = !isUIHidden;
         playerUI.SetActive(!isUIHidden);
-        waitingForTouchToShowUI = false; // Reset flag if user manually toggles UI
+        waitingForTouchToShowUI = false; 
     }
 
     public void ShowUI()
