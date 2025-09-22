@@ -2,7 +2,6 @@ using UnityEngine;
 using System.Collections;
 using Unity.Cinemachine;
 
-
 public class PlayerMovements : MonoBehaviour
 {
     // UI Input Flags
@@ -612,8 +611,6 @@ public class PlayerMovements : MonoBehaviour
     {
         return uiMoveRight;
     }
-
-    // Add these public setters inside PlayerMovements.cs
 
     public void SetUIMoveLeft(bool state) => uiMoveLeft = state;
     public void SetUIMoveRight(bool state) => uiMoveRight = state;

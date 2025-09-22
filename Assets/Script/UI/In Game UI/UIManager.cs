@@ -182,7 +182,12 @@ public class UIManager : MonoBehaviour
             GameManager.Instance.SetCheckpoint(start);
         }
 
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        string currentSceneName = SceneManager.GetActiveScene().name;
+        SceneLoader.playEntryAnimation = true;
+
+        SceneLoader.targetScene = currentSceneName;
+
+        SceneManager.LoadScene("LoadingScene");
     }
 
 

@@ -15,7 +15,23 @@ public class PlayerIntroEntrance : MonoBehaviour
         player = GameObject.FindGameObjectWithTag("Player");
         playerMovementScript = player.GetComponent<PlayerMovements>();
 
-        playerMovementScript.enabled = false; // Disable manual control
+        if (SceneLoader.playEntryAnimation)
+        {
+            isAutoRunning = true;
+            playerMovementScript.enabled = false;
+        }
+        else
+        {
+            isAutoRunning = false;
+            playerMovementScript.enabled = true;
+        }
+
+    }
+
+    private void Awake()
+    {
+        Debug.Log("playEntryAnimation at scene start = " + SceneLoader.playEntryAnimation);
+
     }
 
     void Update()
@@ -36,6 +52,7 @@ public class PlayerIntroEntrance : MonoBehaviour
         {
             isAutoRunning = false;
             playerMovementScript.enabled = true;
+            SceneLoader.playEntryAnimation = false;
         }
     }
 }

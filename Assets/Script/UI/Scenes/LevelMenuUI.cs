@@ -21,6 +21,7 @@ public class LevelMenuUI : MonoBehaviour
     {
         PlayClickSFX();
         SceneLoader.targetScene = "Scenes/Level 1";
+        SceneLoader.playEntryAnimation = true;
         SceneManager.LoadScene("LoadingScene");
     }
 

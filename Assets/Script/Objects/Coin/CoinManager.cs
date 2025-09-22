@@ -14,6 +14,10 @@ public class CoinManager : MonoBehaviour
             Instance = this;
             DontDestroyOnLoad(gameObject); // So it doesn't get destroyed between scenes
             LoadCoins();
+            if(UIManager.Instance != null)
+            {
+                UIManager.Instance.UpdateCoinUI(totalCoins);
+            }
         }
         else
         {
@@ -25,7 +29,11 @@ public class CoinManager : MonoBehaviour
     {
         totalCoins += amount;
         SaveCoins();
-        UIManager.Instance.UpdateCoinUI(totalCoins);
+        if(UIManager.Instance != null)
+        {
+            UIManager.Instance.UpdateCoinUI(totalCoins);
+
+        }
     }
 
     public int GetCoins() => totalCoins;
@@ -33,6 +41,7 @@ public class CoinManager : MonoBehaviour
     private void SaveCoins()
     {
         PlayerPrefs.SetInt("CoinCount", totalCoins);
+        PlayerPrefs.Save();
     }
 
     private void LoadCoins()
@@ -44,6 +53,10 @@ public class CoinManager : MonoBehaviour
     {
         totalCoins = 0;
         SaveCoins();
-        UIManager.Instance.UpdateCoinUI(totalCoins);
+        if(UIManager.Instance == null)
+        {
+            UIManager.Instance.UpdateCoinUI(totalCoins);
+
+        }
     }
 }
