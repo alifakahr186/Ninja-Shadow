@@ -233,6 +233,11 @@ public class PlayerMovements : MonoBehaviour
         isVanished = false;
     }
 
+ Bug-Fixing-In-LevelEnd
+    public bool IsVanished()
+    {
+        return isVanished;
+    }
     //Radial Progress Bar on Disgusie UI button
     private IEnumerator DisguiseProgressRoutine(float duration)
     {
@@ -249,6 +254,7 @@ public class PlayerMovements : MonoBehaviour
 
         disguiseProgressBar.fillAmount = 0f;
         disguiseProgressBar.gameObject.SetActive(false); // bar ko hide kar do
+
     }
 
     public void KillDueToDummyDeath()

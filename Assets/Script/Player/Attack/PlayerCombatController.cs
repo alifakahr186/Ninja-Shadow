@@ -176,6 +176,10 @@ public class PlayerCombatController : MonoBehaviour
 
     public void OnAttackButtonPressed()
     {
+        if (PC != null && PC.IsVanished())
+        {
+            return;
+        }
         if (Time.time >= lastThrowTime + throwCooldown && !isThrowing && !isAttacking)
         {
             if (enemyRangeDetector != null && enemyRangeDetector.isEnemyInRange)
