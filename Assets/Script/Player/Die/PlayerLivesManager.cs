@@ -8,13 +8,12 @@ public class PlayerLivesManager : MonoBehaviour
     public int totalLives = 3;
     public GameObject player;
     public GameObject deathUI;
-    public GameObject playerUI;
-    public GameObject settingUI;
+    public GameObject HUDGroup;
     public CinemachineCamera virtualCamera;
 
     private int deathCount = 0;
     private Vector3 respawnPoint;
-    private float deathUIDelay = 3f; 
+    private float deathUIDelay = 3f;
 
     private void Start()
     {
@@ -22,13 +21,9 @@ public class PlayerLivesManager : MonoBehaviour
         deathUI.SetActive(false);
         UIManager.Instance.UpdateLivesUI(totalLives - deathCount);
 
-        if(settingUI != null)
+        if (HUDGroup != null)
         {
-            settingUI.SetActive(true);
-        }
-        if (playerUI != null)
-        {
-            playerUI.SetActive(true);
+            HUDGroup.SetActive(true);
         }
 
     }
@@ -53,13 +48,9 @@ public class PlayerLivesManager : MonoBehaviour
             // Game Over: Disable player, hide UI, and delay death UI
             player.SetActive(false);
 
-            if (playerUI != null)
+            if (HUDGroup != null)
             {
-                playerUI.SetActive(false);
-            }
-            if(settingUI != null)
-            {
-                settingUI.SetActive(false);
+                HUDGroup.SetActive(false);
             }
 
 
@@ -79,15 +70,11 @@ public class PlayerLivesManager : MonoBehaviour
         deathCount = 0;
         UIManager.Instance.UpdateLivesUI(totalLives);
 
-        if(settingUI != null)
+        if (HUDGroup != null)
         {
-            settingUI.SetActive(true);
+            HUDGroup.SetActive(true);
         }
-        if (playerUI != null)
-        {
-            playerUI.SetActive(true);
-        }
-            
+
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 
