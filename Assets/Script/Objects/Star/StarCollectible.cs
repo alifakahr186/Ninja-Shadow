@@ -2,37 +2,37 @@ using UnityEngine;
 
 public class StarCollectible : MonoBehaviour
 {
-    public GameObject collectEffect; // Optional particle effect
-    public GameObject uiStarImage;   // Assign UI Image (top-left star slot)
-
-
-    private bool collected = false;
+    public GameObject uiStarImage;
     [SerializeField] private AudioSource starCollectSound;
+
+    private SpriteRenderer spriteRenderer;
+    private Collider2D starCollider;
+
+    private void Awake()
+    {
+        spriteRenderer = GetComponent<SpriteRenderer>();
+        starCollider = GetComponent<Collider2D>();
+    }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collected) return;
-
         if (collision.CompareTag("Player"))
         {
-            collected = true;
-            if (starCollectSound != null)
+            // Disable visual + collision immediately
+            if (spriteRenderer != null) spriteRenderer.enabled = false;
+            if (starCollider != null) starCollider.enabled = false;
+
+            if (starCollectSound != null && starCollectSound.clip != null)
             {
                 starCollectSound.Play();
             }
-            // Spawn FX
-            if (collectEffect != null)
+
+            if (uiStarImage != null)
             {
-                GameObject effect = Instantiate(collectEffect, transform.position, Quaternion.identity);
-                Destroy(effect, 2f);
+                uiStarImage.SetActive(true);
             }
 
-            // Show UI version
-            if (uiStarImage != null)
-                uiStarImage.SetActive(true);
-
-            // Kill the star
-            Destroy(gameObject);
+            Destroy(gameObject, starCollectSound.clip.length);
         }
     }
 }
