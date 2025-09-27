@@ -114,6 +114,8 @@ public class PlayerMovements : MonoBehaviour
     [SerializeField] private float disguiseVolume = 1f;
     [SerializeField] private float revertVolume = 1f;
     [SerializeField] private AudioSource audioSource;
+    [SerializeField] private UnityEngine.UI.Image disguiseProgressBar;
+    [SerializeField] private UnityEngine.UI.Image dashProgressBar;
 
     void Start()
     {
@@ -166,6 +168,7 @@ public class PlayerMovements : MonoBehaviour
 
         visuals.SetActive(false);
         bones.SetActive(false);
+
         if (disguiseSound != null && audioSource != null)
         {
             audioSource.PlayOneShot(disguiseSound, disguiseVolume);
@@ -196,8 +199,12 @@ public class PlayerMovements : MonoBehaviour
         GetComponent<Collider2D>().enabled = false;
         rb.simulated = false;
 
+        if(disguiseProgressBar != null)
+        {
+            StartCoroutine(DisguiseProgressRoutine(10f));
+        }
         // Wait for 7 seconds
-        yield return new WaitForSeconds(7f);
+        yield return new WaitForSeconds(10f);
 
         // Destroy dummy
         transform.position = dummy.transform.position;
@@ -226,6 +233,24 @@ public class PlayerMovements : MonoBehaviour
         isVanished = false;
     }
 
+    //Radial Progress Bar on Disgusie UI button
+    private IEnumerator DisguiseProgressRoutine(float duration)
+    {
+        disguiseProgressBar.fillAmount = 1f;
+        disguiseProgressBar.gameObject.SetActive(true);
+
+        float elapsed = 0f;
+        while (elapsed < duration)
+        {
+            elapsed += Time.deltaTime;
+            disguiseProgressBar.fillAmount = Mathf.Lerp(1f, 0f, elapsed / duration);
+            yield return null;
+        }
+
+        disguiseProgressBar.fillAmount = 0f;
+        disguiseProgressBar.gameObject.SetActive(false); // bar ko hide kar do
+    }
+
     public void KillDueToDummyDeath()
     {
         if (!isVanished) return;
@@ -233,6 +258,19 @@ public class PlayerMovements : MonoBehaviour
         // Instant respawn logic
         GetComponent<PlayerStats>().KillPlayer();
     }
+
+    public void DeactivateDisguise()
+    {
+        // agar disguise chal raha hai to turant wapas revert kar do
+        StopAllCoroutines();
+        visuals.SetActive(true);
+        bones.SetActive(true);
+        GetComponent<Collider2D>().enabled = true;
+        rb.simulated = true;
+        virtualCam.Follow = transform;
+        isVanished = false;
+    }
+
 
     private void CheckIfWallSliding()
     {
@@ -340,8 +378,6 @@ public class PlayerMovements : MonoBehaviour
         anim.SetBool("isGrounded", isGrounded);
         anim.SetFloat("yVelocity", rb.linearVelocity.y);
         anim.SetBool("isWallSliding", isWallSliding);
-
-
     }
 
     private void CheckInput()
@@ -417,7 +453,6 @@ public class PlayerMovements : MonoBehaviour
         }
     }
 
-
     private void AttempToDash()
     {
         isDashing = true;
@@ -426,6 +461,29 @@ public class PlayerMovements : MonoBehaviour
 
         PlayerAfterImagePool.Instance.GetFromPool();
         lastImageXpos = transform.position.x;
+
+        if(dashProgressBar != null)
+        {
+            StartCoroutine(DashProgressRoutine(dashCoolDown));
+        }
+    }
+
+    //Radial Progress Bar on Dash UI button
+    private IEnumerator DashProgressRoutine(float duration)
+    {
+        dashProgressBar.fillAmount = 1f;
+        dashProgressBar.gameObject.SetActive(true);
+
+        float elapsed = 0f;
+        while (elapsed < duration)
+        {
+            elapsed += Time.deltaTime;
+            dashProgressBar.fillAmount = Mathf.Lerp(1f, 0f, elapsed / duration);
+            yield return null;
+        }
+
+        dashProgressBar.fillAmount = 0f;
+        dashProgressBar.gameObject.SetActive(false);
     }
 
     private void CheckDash()
