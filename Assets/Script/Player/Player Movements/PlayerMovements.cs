@@ -226,6 +226,11 @@ public class PlayerMovements : MonoBehaviour
         isVanished = false;
     }
 
+    public bool IsVanished()
+    {
+        return isVanished;
+    }
+
     public void KillDueToDummyDeath()
     {
         if (!isVanished) return;
