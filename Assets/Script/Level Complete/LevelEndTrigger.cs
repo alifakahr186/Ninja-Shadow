@@ -24,12 +24,13 @@ public class LevelEndTrigger : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        Debug.Log("Trigger entered by: " + other.name); //  Add this
 
         if (levelEnded) return;
 
         if (other.CompareTag("Player"))
         {
+            GameObject currentPlayer = other.gameObject;
+
             if (levelCompleteSound != null)
             {
                 GameObject tempSound = new GameObject("LevelCompleteSound");
@@ -56,12 +57,13 @@ public class LevelEndTrigger : MonoBehaviour
             StartCoroutine(StopCameraAndAutoRun());
 
             // Make ninja auto-run
-            PlayerMovements pm = player.GetComponent<PlayerMovements>();
+            PlayerMovements pm = currentPlayer.GetComponent<PlayerMovements>();
             if (pm != null)
             {
                 pm.enabled = false; // Disable normal controls
                 StartCoroutine(AutoRunPlayer(pm));
             }
+            levelEnded = true;
         }
     }
 
