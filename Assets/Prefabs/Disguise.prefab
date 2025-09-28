@@ -14,7 +14,6 @@ GameObject:
   - component: {fileID: 3009299444259750038}
   - component: {fileID: -3121862849486646360}
   - component: {fileID: 2648169931649848148}
-  - component: {fileID: 5511124059671141021}
   m_Layer: 8
   m_Name: Disguise
   m_TagString: Untagged
@@ -178,7 +177,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 57dd81a01c408fa448ab49a3dd8ecc39, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 10
+  moveSpeed: 14
 --- !u!114 &2648169931649848148
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -191,22 +190,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c8e4e6c173b03a4db2a33a526f49af3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &5511124059671141021
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2140082661484577629}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1b7994f3036c07742ab83fc83614f129, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  disguiseButton: {fileID: 0}
-  radialProgressBar: {fileID: 0}
-  disguiseDuration: 7
-  player: {fileID: 0}
 --- !u!1001 &4947190302229595612
 PrefabInstance:
   m_ObjectHideFlags: 0

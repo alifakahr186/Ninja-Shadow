@@ -116,6 +116,8 @@ public class PlayerMovements : MonoBehaviour
     [SerializeField] private AudioSource audioSource;
     [SerializeField] private UnityEngine.UI.Image disguiseProgressBar;
     [SerializeField] private UnityEngine.UI.Image dashProgressBar;
+    [SerializeField] private AudioSource dashSound;
+
 
     void Start()
     {
@@ -233,7 +235,6 @@ public class PlayerMovements : MonoBehaviour
         isVanished = false;
     }
 
- Bug-Fixing-In-LevelEnd
     public bool IsVanished()
     {
         return isVanished;
@@ -471,6 +472,10 @@ public class PlayerMovements : MonoBehaviour
         if(dashProgressBar != null)
         {
             StartCoroutine(DashProgressRoutine(dashCoolDown));
+        }
+        if (dashSound != null)
+        {
+            dashSound.Play();
         }
     }
 
