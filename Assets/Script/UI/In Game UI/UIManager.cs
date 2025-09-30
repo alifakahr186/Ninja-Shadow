@@ -25,7 +25,7 @@ public class UIManager : MonoBehaviour
     public TextMeshProUGUI livesText;
 
     [Header("Star UI")]
-    public Image[] starIcons; 
+    public Image[] starIcons;
     private int currentStarIndex = 0;
 
     [Header("Scene Info")]
@@ -36,7 +36,7 @@ public class UIManager : MonoBehaviour
     private bool isPaused = false;
     private bool isMusicOn = true;
     private bool isUIHidden = false;
-    private bool waitingForTouchToShowUI = false; 
+    private bool waitingForTouchToShowUI = false;
     private float touchBlockTimer = 0f;
 
     [Header("Setting Sound Effects")]
@@ -63,7 +63,7 @@ public class UIManager : MonoBehaviour
         sfxSource = gameObject.AddComponent<AudioSource>();
         sfxSource.playOnAwake = false;
         sfxSource.loop = false;
-        sfxSource.volume = 1f; 
+        sfxSource.volume = 1f;
 
 
     }
@@ -118,8 +118,14 @@ public class UIManager : MonoBehaviour
         {
             starIcons[currentStarIndex].enabled = true;
             currentStarIndex++;
+
+            //  Save stars progress for this level
+            string levelKey = "Stars_" + SceneManager.GetActiveScene().name;
+            PlayerPrefs.SetInt(levelKey, currentStarIndex);
+            PlayerPrefs.Save();
         }
     }
+
 
     public void ResetStars()
     {
@@ -202,7 +208,7 @@ public class UIManager : MonoBehaviour
     {
         isUIHidden = !isUIHidden;
         playerUI.SetActive(!isUIHidden);
-        waitingForTouchToShowUI = false; 
+        waitingForTouchToShowUI = false;
     }
 
     public void ShowUI()

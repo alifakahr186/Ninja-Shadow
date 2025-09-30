@@ -97,7 +97,7 @@ public class LevelEndTrigger : MonoBehaviour
             StartCoroutine(FadeInBlackScreen(blackImageComponent, 1.5f));
         }
 
-        yield return new WaitForSeconds(2f); // Wait before showing panel
+        yield return new WaitForSeconds(2f);
 
         levelCompletePanel.SetActive(true);
         foreach (AudioSource source in audioSourcesToMute)
