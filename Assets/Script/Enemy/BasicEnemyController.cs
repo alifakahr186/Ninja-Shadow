@@ -75,8 +75,15 @@ public class BasicEnemyController : MonoBehaviour
     private GameObject alive;
     private Rigidbody2D aliveRb;
     private Animator aliveAnim;
+
     [SerializeField] private AudioClip ninjaDeathSound;
     [SerializeField] private float deathSoundVolume = 1f;
+
+    [SerializeField] private AudioClip enemyDeathSound;   // enemy ki death sound
+    [SerializeField] private float enemyDeathSoundVolume = 1f;
+
+    [SerializeField] private AudioClip enemyKilledByShuriken;   // enemy ki death sound
+    [SerializeField] private float enemyKilledByShurikenVolume = 1f;
     private void Start()
     {
         alive = transform.Find("Alive").gameObject;
@@ -182,12 +189,53 @@ public class BasicEnemyController : MonoBehaviour
 
     private void EnterDeadState()
     {
-
         // Play death particles
         Instantiate(deathChunkParticle, alive.transform.position, deathChunkParticle.transform.rotation);
         Instantiate(deathBloodParticle, alive.transform.position, deathBloodParticle.transform.rotation);
+
+        // Play death animation
+        aliveAnim.SetTrigger("Die");
+        PlayEnemyDeathSound();
+        EnemyKilledSound();
+
+        // Disable colliders/movement
+        aliveRb.linearVelocity = Vector2.zero;
+        aliveRb.bodyType = RigidbodyType2D.Kinematic;
+        Collider2D[] cols = alive.GetComponentsInChildren<Collider2D>();
+        foreach (var col in cols) col.enabled = false;
+
+        StartCoroutine(DestroyAfterDelay(3f)); 
+    }
+    private void PlayEnemyDeathSound()
+    {
+        if (enemyDeathSound != null)
+        {
+            GameObject tempSound = new GameObject("TempEnemyDeathSound");
+            AudioSource source = tempSound.AddComponent<AudioSource>();
+            source.clip = enemyDeathSound;
+            source.volume = enemyDeathSoundVolume;
+            source.Play();
+            Destroy(tempSound, enemyDeathSound.length);
+        }
+    }
+    private void EnemyKilledSound()
+    {
+        if (enemyKilledByShuriken != null)
+        {
+            GameObject tempSound = new GameObject("TempenemyKilledByShuriken");
+            AudioSource source = tempSound.AddComponent<AudioSource>();
+            source.clip = enemyKilledByShuriken;
+            source.volume = enemyKilledByShurikenVolume;
+            source.Play();
+            Destroy(tempSound, enemyKilledByShuriken.length);
+        }
+    }
+    private IEnumerator DestroyAfterDelay(float delay)
+    {
+        yield return new WaitForSeconds(delay);
         Destroy(gameObject);
     }
+
 
     private void UpdateDeadState() { }
 

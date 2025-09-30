@@ -487,6 +487,10 @@ MonoBehaviour:
   playerCheckDistance: 11.2
   ninjaDeathSound: {fileID: 8300000, guid: 5bed52f558b40f845b7c6dc9c4aa9500, type: 3}
   deathSoundVolume: 1
+  enemyDeathSound: {fileID: 8300000, guid: 30d29d8c81a968549b783390cbda3d49, type: 3}
+  enemyDeathSoundVolume: 2
+  enemyKilledByShuriken: {fileID: 8300000, guid: e76393f84a226554cbc030ed4d43f9ed, type: 3}
+  enemyKilledByShurikenVolume: 2
 --- !u!1 &1888575517839072429
 GameObject:
   m_ObjectHideFlags: 0
@@ -969,7 +973,7 @@ Transform:
   m_GameObject: {fileID: 3557980496316984334}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.3199997, y: 4.125, z: 0}
+  m_LocalPosition: {x: 0.92, y: 4.125, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
