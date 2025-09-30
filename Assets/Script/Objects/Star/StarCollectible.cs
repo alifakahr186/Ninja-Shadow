@@ -1,4 +1,4 @@
-using UnityEngine;
+﻿using UnityEngine;
 
 public class StarCollectible : MonoBehaviour
 {
@@ -30,6 +30,11 @@ public class StarCollectible : MonoBehaviour
             if (uiStarImage != null)
             {
                 uiStarImage.SetActive(true);
+            }
+
+            if (UIManager.Instance != null)
+            {
+                UIManager.Instance.CollectStar();
             }
 
             Destroy(gameObject, starCollectSound.clip.length);
