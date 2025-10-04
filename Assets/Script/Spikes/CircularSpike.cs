@@ -13,7 +13,8 @@ public class CircularSpike : MonoBehaviour
     [SerializeField] private float deathVolume = 1f;
 
     [SerializeField] private AudioClip movementSound;
-[SerializeField] private float movementVolume = 0.6f;
+    [SerializeField] private float movementVolume = 0.6f;
+
     void Start()
     {
         startPos = transform.position;

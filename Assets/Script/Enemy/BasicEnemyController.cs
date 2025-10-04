@@ -189,12 +189,11 @@ public class BasicEnemyController : MonoBehaviour
 
     private void EnterDeadState()
     {
-        // Play death particles
         Instantiate(deathChunkParticle, alive.transform.position, deathChunkParticle.transform.rotation);
         Instantiate(deathBloodParticle, alive.transform.position, deathBloodParticle.transform.rotation);
 
-        // Play death animation
         aliveAnim.SetTrigger("Die");
+
         PlayEnemyDeathSound();
         EnemyKilledSound();
 

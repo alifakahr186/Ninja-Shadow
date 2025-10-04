@@ -744,4 +744,12 @@ public class PlayerMovements : MonoBehaviour
         }
     }
 
+    public void StopRunningSound()
+    {
+        if (runAudioSource != null && runAudioSource.isPlaying)
+        {
+            runAudioSource.Stop();
+        }
+    }
+
 }
