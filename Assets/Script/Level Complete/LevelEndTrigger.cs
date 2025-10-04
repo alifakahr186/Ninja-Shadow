@@ -5,6 +5,7 @@ using Unity.Cinemachine;
 
 public class LevelEndTrigger : MonoBehaviour
 {
+    public PlayerMovements playerMove;
     public GameObject player;
     public GameObject playerUI;
     public Camera mainCamera;
@@ -14,13 +15,13 @@ public class LevelEndTrigger : MonoBehaviour
     public AudioClip levelCompleteSound;
     public float levelCompleteVolume = 1.2f;
 
-
     public float autoRunSpeed = 5f;
     public float delayBeforeBlackout = 2f;
 
     private bool levelEnded = false;
     private Vector3 cameraStopPosition;
     public AudioSource[] audioSourcesToMute;
+
 
     private void OnTriggerEnter2D(Collider2D other)
     {
@@ -43,6 +44,7 @@ public class LevelEndTrigger : MonoBehaviour
 
                 Destroy(tempSound, levelCompleteSound.length);
             }
+
             // Store camera stop position
             cameraStopPosition = mainCamera.transform.position;
 
@@ -64,6 +66,7 @@ public class LevelEndTrigger : MonoBehaviour
                 StartCoroutine(AutoRunPlayer(pm));
             }
             levelEnded = true;
+
         }
     }
 
@@ -80,6 +83,7 @@ public class LevelEndTrigger : MonoBehaviour
 
     private IEnumerator AutoRunPlayer(PlayerMovements pm)
     {
+        pm.StopRunningSound();
         Rigidbody2D rb = player.GetComponent<Rigidbody2D>();
         Animator anim = player.GetComponent<Animator>();
 
