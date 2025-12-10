@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class PlayerCombatController : MonoBehaviour
 {
-    [SerializeField]
+    [SerializeField] 
     private bool combatEnabled;
     [SerializeField]
     private float inputTimer, attack1Radius, attack1Damage;
@@ -11,7 +11,7 @@ public class PlayerCombatController : MonoBehaviour
     private Transform attack1HitBoxPos;
     [SerializeField]
     private LayerMask whatIsDamageable;
-    [SerializeField] 
+    [SerializeField]
     private GameObject sword;
 
     // New variables for dash

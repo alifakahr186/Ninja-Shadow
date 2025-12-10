@@ -1,4 +1,4 @@
-using UnityEngine;
+﻿using UnityEngine;
 using System.Collections;
 using Unity.Cinemachine;
 
@@ -201,7 +201,7 @@ public class PlayerMovements : MonoBehaviour
         GetComponent<Collider2D>().enabled = false;
         rb.simulated = false;
 
-        if(disguiseProgressBar != null)
+        if (disguiseProgressBar != null)
         {
             StartCoroutine(DisguiseProgressRoutine(10f));
         }
@@ -469,7 +469,7 @@ public class PlayerMovements : MonoBehaviour
         PlayerAfterImagePool.Instance.GetFromPool();
         lastImageXpos = transform.position.x;
 
-        if(dashProgressBar != null)
+        if (dashProgressBar != null)
         {
             StartCoroutine(DashProgressRoutine(dashCoolDown));
         }
@@ -575,7 +575,7 @@ public class PlayerMovements : MonoBehaviour
 
         checkJumpMultiplier = true;
         PlayJumpParticles();
-        
+
     }
 
     private void WallJump()
