@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using Unity.Cinemachine;
+using UnityEngine.UI;
 
 public class PlayerMovements : MonoBehaviour
 {
@@ -104,19 +105,12 @@ public class PlayerMovements : MonoBehaviour
 
     public static event System.Action<PlayerMovements> OnPlayerSpawned;
 
-    [SerializeField] private AudioSource runAudioSource;
     [SerializeField] private float runMinSpeed = 0.1f;
 
-    [SerializeField] private AudioSource jumpAudioSource;
-
-    [SerializeField] private AudioClip disguiseSound;
-    [SerializeField] private AudioClip revertSound;
-    [SerializeField] private float disguiseVolume = 1f;
-    [SerializeField] private float revertVolume = 1f;
-    [SerializeField] private AudioSource audioSource;
-    [SerializeField] private UnityEngine.UI.Image disguiseProgressBar;
-    [SerializeField] private UnityEngine.UI.Image dashProgressBar;
-    [SerializeField] private AudioSource dashSound;
+    [SerializeField] private Image disguiseProgressBar;
+    [SerializeField] private Image dashProgressBar;
+    
+    [SerializeField] private PlayerAudioManager audioManager;
 
 
     void Start()
@@ -132,6 +126,11 @@ public class PlayerMovements : MonoBehaviour
             levelStartAutoRunTriggered = true;
             StartCoroutine(StartAutoRunForDuration(2f));
         }
+        audioManager = GetComponent<PlayerAudioManager>();
+        if (audioManager == null)
+        {
+            audioManager = FindAnyObjectByType<PlayerAudioManager>();
+        }
     }
 
     void Update()
@@ -144,7 +143,7 @@ public class PlayerMovements : MonoBehaviour
         CheckJump();
         CheckDash();
         CheckKnockBack();
-        HandleRunningSound();
+
         if (Input.GetKeyDown(KeyCode.C) && !isVanished)
         {
             StartCoroutine(VanishRoutine());
@@ -171,11 +170,12 @@ public class PlayerMovements : MonoBehaviour
         visuals.SetActive(false);
         bones.SetActive(false);
 
-        if (disguiseSound != null && audioSource != null)
-        {
-            audioSource.PlayOneShot(disguiseSound, disguiseVolume);
-        }
 
+        if (audioManager != null)
+        {
+            audioManager.PlayDisguiseSound();
+        }
+        
         if (vanishParticlesPrefab != null && vanishParticleSpawnPoint != null)
         {
             Instantiate(vanishParticlesPrefab, vanishParticleSpawnPoint.position, Quaternion.identity);
@@ -215,11 +215,11 @@ public class PlayerMovements : MonoBehaviour
         visuals.SetActive(true);
         bones.SetActive(true);
 
-        if (revertSound != null && audioSource != null)
+        if (audioManager != null)
         {
-            audioSource.PlayOneShot(revertSound, revertVolume);
+            audioManager.PlayRevertSound();
         }
-
+ 
         GetComponent<Collider2D>().enabled = true;
         rb.simulated = true;
 
@@ -473,9 +473,9 @@ public class PlayerMovements : MonoBehaviour
         {
             StartCoroutine(DashProgressRoutine(dashCoolDown));
         }
-        if (dashSound != null)
+        if (audioManager != null)
         {
-            dashSound.Play();
+            audioManager.PlayDashSound();
         }
     }
 
@@ -567,9 +567,9 @@ public class PlayerMovements : MonoBehaviour
         if (!canNormalJump && !canWallJump) return;
 
         rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
-        if (jumpAudioSource != null)
+        if (audioManager != null)
         {
-            jumpAudioSource.Play();
+            audioManager.PlayJumpSound();
         }
         amountOfJumpLeft--;
 
@@ -589,9 +589,9 @@ public class PlayerMovements : MonoBehaviour
             amountOfJumpLeft = amountOfJump - 1;
             Vector2 forceToAdd = new Vector2(wallJumpForce * wallJumpDirection.x * movementInputDirection, wallJumpForce * wallJumpDirection.y);
             rb.AddForce(forceToAdd, ForceMode2D.Impulse);
-            if (jumpAudioSource != null)
+            if (audioManager != null)
             {
-                jumpAudioSource.Play();
+                audioManager.PlayJumpSound();
             }
             jumpTimer = 0;
             isAttemptingToJump = false;
@@ -660,7 +660,9 @@ public class PlayerMovements : MonoBehaviour
 
     public void OnDashButtonDown() => uiDash = true;
     public void OnDashButtonUp() => uiDash = false;
-
+    //Jostu buttons to control left/right movment for mobile 
+    public bool IsUIMoveLeftPressed() => uiMoveLeft;
+    public bool IsUIMoveRightPressed() => uiMoveRight;
     public void OnDisguiseButtonPressed()
     {
         if (!isVanished)
@@ -669,22 +671,12 @@ public class PlayerMovements : MonoBehaviour
         }
     }
 
-
-    //Jostu buttons to control left/right movment for mobile 
-    public bool IsUIMoveLeftPressed()
-    {
-        return uiMoveLeft;
-    }
-
-    public bool IsUIMoveRightPressed()
-    {
-        return uiMoveRight;
-    }
-
+    // TOUCH INPUT METHODS
     public void SetUIMoveLeft(bool state) => uiMoveLeft = state;
     public void SetUIMoveRight(bool state) => uiMoveRight = state;
     public void SetUIJump(bool state) => uiJump = state;
     public void SetUIDash(bool state) => uiDash = state;
+    public bool IsGrounded() => isGrounded;
     public void TriggerVanish()
     {
         if (!isVanished)
@@ -692,7 +684,6 @@ public class PlayerMovements : MonoBehaviour
             StartCoroutine(VanishRoutine());
         }
     }
-
 
     public void DisableControlAndAutoRun()
     {
@@ -730,26 +721,13 @@ public class PlayerMovements : MonoBehaviour
         isAutoRunning = false;
     }
 
-    private void HandleRunningSound()
-    {
-        bool shouldPlayRunSound = isGrounded && Mathf.Abs(rb.linearVelocity.x) > runMinSpeed;
-
-        if (shouldPlayRunSound && !runAudioSource.isPlaying)
-        {
-            runAudioSource.Play();
-        }
-        else if (!shouldPlayRunSound && runAudioSource.isPlaying)
-        {
-            runAudioSource.Stop();
-        }
-    }
-
     public void StopRunningSound()
     {
-        if (runAudioSource != null && runAudioSource.isPlaying)
+        if (audioManager != null)
         {
-            runAudioSource.Stop();
+            audioManager.StopRunningSound();
         }
+       
     }
 
 }
