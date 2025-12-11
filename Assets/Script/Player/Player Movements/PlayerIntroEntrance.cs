@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class PlayerIntroEntrance : MonoBehaviour
 {
-    public Transform stopPoint; // Point jahan ninja rukega
+    public Transform stopPoint; 
     public float runSpeed = 5f;
 
     private GameObject player;
@@ -11,7 +11,6 @@ public class PlayerIntroEntrance : MonoBehaviour
 
     void Start()
     {
-        // Find Player and disable movement control initially
         player = GameObject.FindGameObjectWithTag("Player");
         playerMovementScript = player.GetComponent<PlayerMovements>();
 

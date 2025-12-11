@@ -20,7 +20,6 @@ public class LevelEndTrigger : MonoBehaviour
 
     private bool levelEnded = false;
     private Vector3 cameraStopPosition;
-    public AudioSource[] audioSourcesToMute;
 
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -104,14 +103,7 @@ public class LevelEndTrigger : MonoBehaviour
         yield return new WaitForSeconds(2f);
 
         levelCompletePanel.SetActive(true);
-        foreach (AudioSource source in audioSourcesToMute)
-        {
-            if (source != null)
-            {
-                source.volume = 0f;
-                source.mute = true;
-            }
-        }
+
     }
 
     private IEnumerator FadeInBlackScreen(Image blackImage, float duration)
