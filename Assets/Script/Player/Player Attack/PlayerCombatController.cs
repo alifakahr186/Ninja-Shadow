@@ -169,8 +169,6 @@ public class PlayerCombatController : MonoBehaviour
 
             // Kill player instead of reducing health
             PS.KillPlayer();
-
-            PC.Knockback(direction);
         }
     }
 
