@@ -982,52 +982,50 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3dd0d7d7a6d9ae48853f5530e400031, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  knockBackDuration: 1
-  knockBackSpeed: {x: 10, y: 20}
   movementSpeed: 15
   jumpForce: 35
-  groundCheckRadius: 0.19
-  groundCheckRadius2: 0.19
-  wallCheckDistance: 0.79
-  wallSlideSpeed: 1.31
   movementForceInAir: 0.95
   airDragMultiplier: 0.8
   variableJumpHeightMultiplier: 2
-  wallHopForce: 10
-  wallJumpForce: 20
-  jumpTimerSet: 0.15
-  turnTimerSet: 0.1
-  wallJumpTimerSet: 0.1
-  dashTime: 0.1
-  dashSpeed: 120
-  distanceBetweenImages: 0.05
-  dashCoolDown: 13
-  amountOfJump: 2
   groundCheck: {fileID: 8057568011753774512}
   groundCheck2: {fileID: 1245787844897875009}
   wallCheck: {fileID: 4316464143638735957}
-  wallHopDirection: {x: 1, y: 0.5}
-  wallJumpDirection: {x: 1, y: 2}
-  whatIsGround:
-    serializedVersion: 2
-    m_Bits: 64
-  jumpParticlesPrefab: {fileID: 167451295554313727, guid: a3c900e4ff5785b46984f6506089f928, type: 3}
-  jumpParticleSpawnPoint: {fileID: 3901564541742912414}
-  visuals: {fileID: 904934385627943623}
-  bones: {fileID: 7624148849970581106}
-  woodenDummyPrefab: {fileID: 2140082661484577629, guid: 3591abfaa2edaf149a45b5d353743bcc, type: 3}
-  dummySpawnPoint: {fileID: 2058022853047355204}
-  dummyMoveSpeed: 5
-  virtualCam: {fileID: 4918245910829295399, guid: 9b9a85cdd3c07834c821037b7567eaf2, type: 3}
-  vanishParticlesPrefab: {fileID: 1085038638344337718, guid: 162e0d8ab06f78d46b243f1e0adbd24c, type: 3}
-  vanishParticleSpawnPoint: {fileID: 6554966992975130631}
   whatIsUnclimbableWall:
     serializedVersion: 2
     m_Bits: 16384
+  whatIsGround:
+    serializedVersion: 2
+    m_Bits: 64
+  groundCheckRadius: 0.19
+  groundCheckRadius2: 0.19
+  wallCheckDistance: 0.79
+  amountOfJump: 2
+  jumpTimerSet: 0.15
+  wallJumpTimerSet: 0.1
+  wallJumpForce: 20
+  wallHopForce: 10
+  wallSlideSpeed: 1.31
+  turnTimerSet: 0.1
+  wallHopDirection: {x: 1, y: 0.5}
+  wallJumpDirection: {x: 1, y: 2}
+  dashTime: 0.1
+  dashSpeed: 120
+  dashCoolDown: 13
+  distanceBetweenImages: 0.05
+  woodenDummyPrefab: {fileID: 2140082661484577629, guid: 3591abfaa2edaf149a45b5d353743bcc, type: 3}
+  visuals: {fileID: 904934385627943623}
+  bones: {fileID: 7624148849970581106}
+  dummySpawnPoint: {fileID: 2058022853047355204}
+  virtualCam: {fileID: 4918245910829295399, guid: 9b9a85cdd3c07834c821037b7567eaf2, type: 3}
+  dummyMoveSpeed: 5
   runMinSpeed: 0.1
   disguiseProgressBar: {fileID: 4154748326717384628}
   dashProgressBar: {fileID: 1197961669321960166}
   audioManager: {fileID: 3820342617335760374}
+  jumpParticlesPrefab: {fileID: 167451295554313727, guid: a3c900e4ff5785b46984f6506089f928, type: 3}
+  jumpParticleSpawnPoint: {fileID: 3901564541742912414}
+  vanishParticlesPrefab: {fileID: 1085038638344337718, guid: 162e0d8ab06f78d46b243f1e0adbd24c, type: 3}
+  vanishParticleSpawnPoint: {fileID: 6554966992975130631}
 --- !u!114 &1177926468685181810
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1351,7 +1349,7 @@ Canvas:
   m_AdditionalShaderChannelsFlag: 0
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_TargetDisplay: 0
 --- !u!114 &6097413015365994079
 MonoBehaviour:

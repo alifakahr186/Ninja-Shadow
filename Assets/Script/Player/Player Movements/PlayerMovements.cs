@@ -5,114 +5,129 @@ using UnityEngine.UI;
 
 public class PlayerMovements : MonoBehaviour
 {
-    // UI Input Flags
+    //UI Input Flags
     private bool uiMoveLeft;
     private bool uiMoveRight;
     private bool uiJump;
     private bool uiDash;
 
-    private bool isControlDisabled = false;
-    private bool isAutoRunning = false;
-
-    private float movementInputDirection;
-    private float verticalInput;
-    private float jumpTimer;
-    private float turnTimer;
-    private float wallJumpTimer;
-    private float dashTimeLeft;
-    private float lastImageXpos;
-    private float lastDash = -100f;
-    private float knockBackStartTime;
-
-    [SerializeField]
-    private float knockBackDuration;
-
-
-    private int amountOfJumpLeft;
-    private int facingDirection = 1;
-    private int lastWallJumpDirection;
-
-    private bool isFacingRight = true;
-    private bool isRunning;
-    private bool isGrounded;
-    private bool canNormalJump;
-    private bool canWallJump;
-    private bool isTouchingWall;
-    private bool isWallSliding;
-    private bool isAttemptingToJump;
-    private bool checkJumpMultiplier;
-    private bool canMove;
-    private bool canFlip;
-    private bool hasWallJumped;
-    private bool isDashing;
-    private bool knockBack;
-
-    [SerializeField]
-    private Vector2 knockBackSpeed;
-
-    private Rigidbody2D rb;
-
+    [Header("MOVEMENT SETTINGS")]
     public float movementSpeed = 10.0f;
     public float jumpForce = 16.0f;
-    public float groundCheckRadius;
-    public float groundCheckRadius2;
-    public float wallCheckDistance;
-    public float wallSlideSpeed;
     public float movementForceInAir;
     public float airDragMultiplier = 0.95f;
     public float variableJumpHeightMultiplier = 0.5f;
-    public float wallHopForce;
-    public float wallJumpForce;
-    public float jumpTimerSet = 0.15f;
-    public float turnTimerSet = 0.1f;
-    public float wallJumpTimerSet = 0.5f;
-    public float dashTime;
-    public float dashSpeed;
-    public float distanceBetweenImages;
-    public float dashCoolDown;
 
-    public int amountOfJump = 1;
+    private bool canMove;
+    private bool canFlip;
+    private int facingDirection = 1;
 
-    private Animator anim;
+
+    [Header("GROUND & WALL DETECTION")]
     public Transform groundCheck;
     public Transform groundCheck2;
     public Transform wallCheck;
 
+    public LayerMask whatIsUnclimbableWall;
+    public LayerMask whatIsGround;
+
+    public float groundCheckRadius;
+    public float groundCheckRadius2;
+    public float wallCheckDistance;
+
+
+    [Header("JUMP / WALL JUMP SYSTEM")]
+    public int amountOfJump = 1;
+    private int amountOfJumpLeft;
+    private int lastWallJumpDirection;
+
+    private float wallJumpTimer;
+    private float jumpTimer;
+    private float turnTimer;
+
+    private bool canNormalJump;
+    private bool canWallJump;
+    private bool checkJumpMultiplier;
+    private bool isAttemptingToJump;
+    private bool isWallSliding;
+    private bool hasWallJumped;
+    private bool isTouchingWall;
+    private bool isTouchingUnclimbableWall;
+
+    public float jumpTimerSet = 0.15f;
+    public float wallJumpTimerSet = 0.5f;
+    public float wallJumpForce;
+    public float wallHopForce;
+    public float wallSlideSpeed;
+    public float turnTimerSet = 0.1f;
+
     public Vector2 wallHopDirection;
     public Vector2 wallJumpDirection;
 
-    public LayerMask whatIsGround;
 
-    [SerializeField] private GameObject jumpParticlesPrefab;
-    [SerializeField] private Transform jumpParticleSpawnPoint;
+    [Header("DASH SYSTEM")]
+    public float dashTime;
+    public float dashSpeed;
+    public float dashCoolDown;
+    public float distanceBetweenImages;
+    private float movementInputDirection;
+    private float verticalInput;
+    private float dashTimeLeft;
+    private float lastDash = -100f;
+    private float lastImageXpos;
 
-    private static bool levelStartAutoRunTriggered = false;
+    private bool isDashing;
+
+
+    [Header("DISGUISE / VANISH SYSTEM")]
+    public GameObject woodenDummyPrefab;
+    public GameObject visuals;  
+    public GameObject bones;
+
+    public Transform dummySpawnPoint;
+
+    public CinemachineCamera virtualCam;
+
+    public float dummyMoveSpeed = 2f;
+
     private bool isVanished = false;
 
-    public GameObject visuals;  // assign via inspector
-    public GameObject bones;    // assign via inspector
 
-    public GameObject woodenDummyPrefab;
-    public Transform dummySpawnPoint;
-    public float dummyMoveSpeed = 2f;
-    public CinemachineCamera virtualCam;
+    [Header("CONTROL FLAGS")]
+    private bool isControlDisabled = false;
+    private bool isAutoRunning = false;
+    private static bool levelStartAutoRunTriggered = false;
+    [SerializeField] private float runMinSpeed = 0.1f;
+
+
+    [Header("PROGRESS BAR UI")]
+    private bool isFacingRight = true;
+    private bool isRunning;
+    private bool isGrounded;
+
+
+    [Header("UI BUTTON EFFECT")]
+    [SerializeField] private Image disguiseProgressBar;
+    [SerializeField] private Image dashProgressBar;
+
+
+    [Header("AUDIO SYSTEM")]
+    [SerializeField] private PlayerAudioManager audioManager;
+
+    
+    [Header("VISUAL EFFECTS")]
+    [SerializeField] private GameObject jumpParticlesPrefab;
+    [SerializeField] private Transform jumpParticleSpawnPoint;
 
     [SerializeField] private GameObject vanishParticlesPrefab;
     [SerializeField] private Transform vanishParticleSpawnPoint;
 
-    public LayerMask whatIsUnclimbableWall;
-    private bool isTouchingUnclimbableWall;
+    [Header("COMPONENT REFERENCES")]
+    private Rigidbody2D rb;
+    private Animator anim;
 
     public static event System.Action<PlayerMovements> OnPlayerSpawned;
-
-    [SerializeField] private float runMinSpeed = 0.1f;
-
-    [SerializeField] private Image disguiseProgressBar;
-    [SerializeField] private Image dashProgressBar;
     
-    [SerializeField] private PlayerAudioManager audioManager;
-
-
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -142,7 +157,6 @@ public class PlayerMovements : MonoBehaviour
         CheckIfWallSliding();
         CheckJump();
         CheckDash();
-        CheckKnockBack();
 
         if (Input.GetKeyDown(KeyCode.C) && !isVanished)
         {
@@ -305,22 +319,6 @@ public class PlayerMovements : MonoBehaviour
         return isDashing;
     }
 
-    public void Knockback(int direction)
-    {
-        knockBack = true;
-        knockBackStartTime = Time.time;
-        rb.linearVelocity = new Vector2(knockBackSpeed.x * direction, knockBackSpeed.y);
-
-    }
-
-    private void CheckKnockBack()
-    {
-        if (Time.time >= knockBackStartTime + knockBackDuration && knockBack)
-        {
-            knockBack = false;
-            rb.linearVelocity = new Vector2(0.0f, rb.linearVelocity.y);
-        }
-    }
     private void CheckSurrondings()
     {
         RaycastHit2D groundHit = Physics2D.CircleCast(groundCheck.position, groundCheckRadius, Vector2.down, 0.1f, whatIsGround);
@@ -608,11 +606,11 @@ public class PlayerMovements : MonoBehaviour
 
     private void ApplyMovement()
     {
-        if (!isGrounded && !isWallSliding && movementInputDirection == 0 && !knockBack)
+        if (!isGrounded && !isWallSliding && movementInputDirection == 0)
         {
             rb.linearVelocity = new Vector2(rb.linearVelocity.x * airDragMultiplier, rb.linearVelocity.y);
         }
-        else if (canMove && !knockBack)
+        else if (canMove)
         {
             if (isControlDisabled && isAutoRunning)
             {
@@ -641,7 +639,7 @@ public class PlayerMovements : MonoBehaviour
     }
     private void Flip()
     {
-        if (!isWallSliding && canFlip && !knockBack)
+        if (!isWallSliding && canFlip)
         {
             facingDirection *= -1;
             isFacingRight = !isFacingRight;
