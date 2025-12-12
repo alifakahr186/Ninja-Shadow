@@ -112,7 +112,7 @@ public class PlayerMovements : MonoBehaviour
 
 
     [Header("AUDIO SYSTEM")]
-    [SerializeField] private PlayerAudioManager audioManager;
+    public PlayerAudioManager audioManager;
 
     
     [Header("VISUAL EFFECTS")]
