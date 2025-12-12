@@ -24,13 +24,31 @@ public class LevelEndTrigger : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-
         if (levelEnded) return;
+
+        PlayerMovements pm = null;
 
         if (other.CompareTag("Player"))
         {
-            GameObject currentPlayer = other.gameObject;
+            pm = other.GetComponent<PlayerMovements>();
+        }
+        else if (other.CompareTag("DisguiseObject")) // detect dummy
+        {
+            PlayerDisguiseController dummyController = other.GetComponent<PlayerDisguiseController>();
+            if (dummyController != null && dummyController.ninjaOwner != null)
+            {
+                pm = dummyController.ninjaOwner;
 
+                // Forcefully revert dummy
+                pm.ForceRevertDisguise();
+                pm.transform.position = other.transform.position; // move ninja to dummy position
+                Destroy(other.gameObject); // remove dummy
+            }
+        }
+
+        if (pm != null)
+        {
+            // Play level complete sound
             if (levelCompleteSound != null)
             {
                 GameObject tempSound = new GameObject("LevelCompleteSound");
@@ -44,30 +62,25 @@ public class LevelEndTrigger : MonoBehaviour
                 Destroy(tempSound, levelCompleteSound.length);
             }
 
-            // Store camera stop position
+            // Stop camera follow
             cameraStopPosition = mainCamera.transform.position;
-
             if (cinemachineCamera != null)
-            {
                 cinemachineCamera.Follow = null;
-            }
-            // Disable UI buttons
+
+            // Disable UI
             if (playerUI != null) playerUI.SetActive(false);
 
             // Stop camera movement
             StartCoroutine(StopCameraAndAutoRun());
 
-            // Make ninja auto-run
-            PlayerMovements pm = currentPlayer.GetComponent<PlayerMovements>();
-            if (pm != null)
-            {
-                pm.enabled = false; // Disable normal controls
-                StartCoroutine(AutoRunPlayer(pm));
-            }
-            levelEnded = true;
+            // Start auto-run
+            pm.enabled = false; // disable player input
+            StartCoroutine(AutoRunPlayer(pm));
 
+            levelEnded = true;
         }
     }
+
 
     private IEnumerator StopCameraAndAutoRun()
     {

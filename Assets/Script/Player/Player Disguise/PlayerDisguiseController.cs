@@ -5,7 +5,7 @@ public class PlayerDisguiseController : MonoBehaviour
     private Rigidbody2D rb;
     public float moveSpeed = 2f;
     private bool isFacingRight = true;
-    private PlayerMovements ninjaOwner;
+    public PlayerMovements ninjaOwner;
 
     public void AssignOwner(PlayerMovements owner)
     {

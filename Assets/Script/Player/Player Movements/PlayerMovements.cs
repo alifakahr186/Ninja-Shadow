@@ -377,6 +377,32 @@ public class PlayerMovements : MonoBehaviour
         }
     }
 
+    //When Disgusie obejct hit level-end trigger it forcefully convert into ninja
+    public void ForceRevertDisguise()
+    {
+        if (!isVanished) return; 
+
+        StopAllCoroutines(); 
+
+        // Enable ninja visuals & collider
+        visuals.SetActive(true);
+        bones.SetActive(true);
+        GetComponent<Collider2D>().enabled = true;
+        rb.simulated = true;
+
+        if (virtualCam != null)
+        {
+            virtualCam.Follow = transform;
+        }
+            
+        if (disguiseProgressBar != null)
+        {
+            disguiseProgressBar.fillAmount = 0f;
+            disguiseProgressBar.gameObject.SetActive(false);
+        }
+        isVanished = false;
+    }
+
     private void UpdateAnimation()
     {
         anim.SetBool("isRunning", isRunning);
