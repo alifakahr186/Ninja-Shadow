@@ -81,7 +81,7 @@ public class PlayerMovements : MonoBehaviour
 
     [Header("DISGUISE / VANISH SYSTEM")]
     public GameObject woodenDummyPrefab;
-    public GameObject visuals;  
+    public GameObject visuals;
     public GameObject bones;
 
     public Transform dummySpawnPoint;
@@ -112,9 +112,9 @@ public class PlayerMovements : MonoBehaviour
 
 
     [Header("AUDIO SYSTEM")]
-    [SerializeField] private PlayerAudioManager audioManager;
+    public PlayerAudioManager audioManager;
 
-    
+
     [Header("VISUAL EFFECTS")]
     [SerializeField] private GameObject jumpParticlesPrefab;
     [SerializeField] private Transform jumpParticleSpawnPoint;
@@ -127,7 +127,7 @@ public class PlayerMovements : MonoBehaviour
     private Animator anim;
 
     public static event System.Action<PlayerMovements> OnPlayerSpawned;
-    
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -189,7 +189,7 @@ public class PlayerMovements : MonoBehaviour
         {
             audioManager.PlayDisguiseSound();
         }
-        
+
         if (vanishParticlesPrefab != null && vanishParticleSpawnPoint != null)
         {
             Instantiate(vanishParticlesPrefab, vanishParticleSpawnPoint.position, Quaternion.identity);
@@ -233,7 +233,7 @@ public class PlayerMovements : MonoBehaviour
         {
             audioManager.PlayRevertSound();
         }
- 
+
         GetComponent<Collider2D>().enabled = true;
         rb.simulated = true;
 
@@ -380,9 +380,9 @@ public class PlayerMovements : MonoBehaviour
     //When Disgusie obejct hit level-end trigger it forcefully convert into ninja
     public void ForceRevertDisguise()
     {
-        if (!isVanished) return; 
+        if (!isVanished) return;
 
-        StopAllCoroutines(); 
+        StopAllCoroutines();
 
         // Enable ninja visuals & collider
         visuals.SetActive(true);
@@ -394,7 +394,7 @@ public class PlayerMovements : MonoBehaviour
         {
             virtualCam.Follow = transform;
         }
-            
+
         if (disguiseProgressBar != null)
         {
             disguiseProgressBar.fillAmount = 0f;
@@ -751,7 +751,7 @@ public class PlayerMovements : MonoBehaviour
         {
             audioManager.StopRunningSound();
         }
-       
+
     }
 
 }

@@ -95,7 +95,16 @@ public class LevelEndTrigger : MonoBehaviour
 
     private IEnumerator AutoRunPlayer(PlayerMovements pm)
     {
-        pm.StopRunningSound();
+        // Stop any running sound immediately
+        if (pm.audioManager != null)
+        {
+            pm.audioManager.StopRunningSound();
+            if (pm.audioManager.runAudioSource != null)
+            {
+                pm.audioManager.runAudioSource.Stop();
+                pm.audioManager.runAudioSource.clip = null;
+            }
+        }
         Rigidbody2D rb = player.GetComponent<Rigidbody2D>();
         Animator anim = player.GetComponent<Animator>();
 

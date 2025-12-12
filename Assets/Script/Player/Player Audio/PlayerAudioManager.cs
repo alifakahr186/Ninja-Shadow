@@ -3,19 +3,19 @@ using UnityEngine;
 public class PlayerAudioManager : MonoBehaviour
 {
     [Header("")]
-    [SerializeField] private AudioSource runAudioSource;
-    [SerializeField] private AudioSource jumpAudioSource;
-    [SerializeField] private AudioSource dashSound;
-    [SerializeField] private AudioSource audioSource; // For disguise/revert sounds
+    public AudioSource runAudioSource;
+    public AudioSource jumpAudioSource;
+    public AudioSource dashSound;
+    public AudioSource audioSource; // For disguise/revert sounds
 
     [Header("")]
-    [SerializeField] private AudioClip disguiseSound;
-    [SerializeField] private AudioClip revertSound;
+    public AudioClip disguiseSound;
+    public AudioClip revertSound;
 
     [Header("")]
-    [SerializeField] private float runMinSpeed = 0.1f;
-    [SerializeField] private float disguiseVolume = 1f;
-    [SerializeField] private float revertVolume = 1f;
+    public float runMinSpeed = 0.1f;
+    public float disguiseVolume = 1f;
+    public float revertVolume = 1f;
 
     private PlayerMovements playerMovements;
     private Rigidbody2D rb;
@@ -72,9 +72,9 @@ public class PlayerAudioManager : MonoBehaviour
     {
         if (playerMovements == null || rb == null) return;
 
-        bool shouldPlayRunSound = playerMovements.IsGrounded() && 
+        bool shouldPlayRunSound = playerMovements.IsGrounded() &&
                                   Mathf.Abs(rb.linearVelocity.x) > runMinSpeed &&
-                                  !playerMovements.IsVanished(); 
+                                  !playerMovements.IsVanished();
 
         if (shouldPlayRunSound && !runAudioSource.isPlaying)
             runAudioSource.Play();
