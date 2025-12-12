@@ -72,9 +72,9 @@ public class PlayerAudioManager : MonoBehaviour
     {
         if (playerMovements == null || rb == null) return;
 
-        bool shouldPlayRunSound = playerMovements.IsGrounded() && 
+        bool shouldPlayRunSound = playerMovements.IsGrounded() &&
                                   Mathf.Abs(rb.linearVelocity.x) > runMinSpeed &&
-                                  !playerMovements.IsVanished(); 
+                                  !playerMovements.IsVanished();
 
         if (shouldPlayRunSound && !runAudioSource.isPlaying)
             runAudioSource.Play();

@@ -102,7 +102,7 @@ public class LevelEndTrigger : MonoBehaviour
             if (pm.audioManager.runAudioSource != null)
             {
                 pm.audioManager.runAudioSource.Stop();
-                pm.audioManager.runAudioSource.clip = null; 
+                pm.audioManager.runAudioSource.clip = null;
             }
         }
         Rigidbody2D rb = player.GetComponent<Rigidbody2D>();
