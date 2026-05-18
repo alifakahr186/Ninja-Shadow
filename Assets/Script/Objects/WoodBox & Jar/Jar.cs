@@ -38,10 +38,21 @@ public class Jar : MonoBehaviour
             }
             if (particles.Length > 0)
             {
-                //  GoldBag ko turant spawn karo
+                // GoldBag spawn 
                 if (goldBagPrefab != null)
                 {
-                    Instantiate(goldBagPrefab, spawnPoint != null ? spawnPoint.position : transform.position, Quaternion.identity);
+                    Vector3 spawnPosition;
+
+                    if (spawnPoint != null)
+                    {
+                        spawnPosition = spawnPoint.position;
+                    }
+                    else
+                    {
+                        spawnPosition = transform.position;
+                    }
+
+                    Instantiate(goldBagPrefab, spawnPosition, Quaternion.identity);
                 }
 
                 StartCoroutine(BreakAfterParticles());
@@ -65,6 +76,7 @@ public class Jar : MonoBehaviour
         }
 
         SR.enabled = false;
+        GetComponent<Collider2D>().enabled = false;
 
         float maxDuration = 3f;
         foreach (ParticleSystem ps in particles)
