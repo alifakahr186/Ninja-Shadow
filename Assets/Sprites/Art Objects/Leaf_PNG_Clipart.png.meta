@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 59cdf96f4419836418b1d2038bd27b98
+guid: 0f547af33c8e68e4183b853308df284a
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6298103562354944137
-    second: "\u2014Pngtree\u2014white light ray light source_7421846_0"
+      213: -5582443556887020589
+    second: Leaf_PNG_Clipart_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -87,6 +87,19 @@ TextureImporter:
     buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
+    textureFormat: 12
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
@@ -96,30 +109,17 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: 47
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 1
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "\u2014Pngtree\u2014white light ray light source_7421846_0"
+      name: Leaf_PNG_Clipart_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1191
-        height: 1200
+        x: 64
+        y: 37
+        width: 7105
+        height: 7897
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 988e9c832db576750800000000000000
-      internalID: 6298103562354944137
+      spriteID: 3dbb41d792d2782b0800000000000000
+      internalID: -5582443556887020589
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      "\u2014Pngtree\u2014white light ray light source_7421846_0": 6298103562354944137
+      Leaf_PNG_Clipart_0: -5582443556887020589
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
