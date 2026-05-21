@@ -44,6 +44,7 @@ public class PlayerCombatController : MonoBehaviour
     private void Start()
     {
         anim = GetComponent<Animator>();
+        anim.Rebind();
         anim.SetBool("canAttack", combatEnabled);
         PC = GetComponent<PlayerMovements>();
         PS = GetComponent<PlayerStats>();
@@ -67,11 +68,13 @@ public class PlayerCombatController : MonoBehaviour
     {
         isThrowing = true;
         lastThrowTime = Time.time;
+        anim.ResetTrigger("isThrowingShuriken");
         anim.SetTrigger("isThrowingShuriken"); // Use "throw" trigger in Animator
     }
 
     public void ThrowShuriken()
     {
+        if (!isThrowing) return;
         GameObject shuriken = Instantiate(shurikenPrefab, shurikenSpawnPoint.position, shurikenSpawnPoint.rotation);
     }
 
