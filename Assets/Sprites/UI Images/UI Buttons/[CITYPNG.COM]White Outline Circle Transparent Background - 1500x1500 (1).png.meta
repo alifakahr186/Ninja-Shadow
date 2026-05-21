@@ -1,10 +1,11 @@
 fileFormatVersion: 2
-guid: 37967bcf13f002d49b65264561edff9a
+guid: 66576d92f63557a429108c449a0d778e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1022353646339955216
-    second: New Project (9)_0
+      213: -9147674908756343124
+    second: '[CITYPNG.COM]White Outline Circle Transparent Background - 1500x1500
+      (1)_0'
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +38,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -53,7 +54,7 @@ TextureImporter:
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spriteGenerateFallbackPhysicsShape: 1
+  spriteGenerateFallbackPhysicsShape: 0
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
@@ -98,7 +99,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
     buildTarget: Android
-    maxTextureSize: 2048
+    maxTextureSize: 512
     resizeAlgorithm: 0
     textureFormat: 47
     textureCompression: 1
@@ -109,30 +110,18 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: New Project (9)_0
+      name: '[CITYPNG.COM]White Outline Circle Transparent Background - 1500x1500
+        (1)_0'
       rect:
         serializedVersion: 2
-        x: 100
-        y: 250
-        width: 1749
-        height: 649
+        x: 129
+        y: 128
+        width: 1243
+        height: 1243
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +130,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 01a1be48931203e00800000000000000
-      internalID: 1022353646339955216
+      spriteID: ca603de032eec0180800000000000000
+      internalID: -9147674908756343124
       vertices: []
       indices: 
       edges: []
@@ -161,7 +150,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      New Project (9)_0: 1022353646339955216
+      '[CITYPNG.COM]White Outline Circle Transparent Background - 1500x1500 (1)_0': -9147674908756343124
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

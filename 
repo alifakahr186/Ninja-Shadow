@@ -1,0 +1,43 @@
+[33mc7ebb91[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mRandom-Stuff[m[33m, [m[1;31morigin/Random-Stuff[m[33m)[m Random stuff 4 & 5: We done Texture Import Settings for all assests & we again sort some project files
+[33mf8c3fb1[m Random stuff 2 & 3: Add falling leaves Particle Effect & Rearranging Project files in project section
+[33ma271084[m Random 1: only add light bugs
+[33ma1b545c[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmain[m[33m)[m Merge pull request #20 from alifakahr186/Shuriken-Mechanic
+[33m1e60b17[m[33m ([m[1;31morigin/Shuriken-Mechanic[m[33m)[m Fix: Shuriken stright throw
+[33m149024d[m Merge pull request #18 from alifakahr186/Goldbag-Fallen
+[33mfc3e21d[m[33m ([m[1;31morigin/Goldbag-Fallen[m[33m)[m Goldbag Now falls correctly after container break
+[33m2c8a196[m Merge pull request #16 from alifakahr186/Modify-Branch
+[33m5287d5a[m Modify Fall from ground script
+[33mf69afa5[m Merge pull request #15 from alifakahr186/Modify-Branch
+[33m7d419a0[m Add new tree and graveyard in parallex effect background
+[33m13f4809[m Merge pull request #14 from alifakahr186/Clean-Code
+[33mfec0684[m Running audio Correction
+[33m10b13da[m Running sound stop while in level end
+[33maf1d075[m Merge pull request #13 from alifakahr186/Clean-Code
+[33m6248c2d[m Level end trigger correction
+[33m14f05c8[m Merge pull request #12 from alifakahr186/Clean-Code
+[33m6aa27f2[m Clean Codes
+[33mf627a70[m Clean Code
+[33m26f422d[m Merge pull request #10 from alifakahr186/Refactor-Scripts
+[33mae527d1[m Refactor PlayerMovement script
+[33m2de0658[m Progress bar issue resolve
+[33m2f999dd[m Merge pull request #8 from alifakahr186/Enemy-Feature
+[33ma6e5114[m Sucessfully giving new feature tu enemy and bug fixing
+[33mfcfc822[m Merge pull request #7 from alifakahr186/Enemy-Feature
+[33ma8fdf1b[m Adding new feature in enemy
+[33md6c34a1[m Merge pull request #6 from alifakahr186/Bug-Fixing-In-LevelEnd
+[33m609348c[m Adding New Feature
+[33m32f730b[m Merge pull request #5 from alifakahr186/Bug-Fixing-In-LevelEnd
+[33m9c4feff[m Added new features and Bug fixes
+[33mae01d67[m Merge pull request #4 from alifakahr186/Bug-Fixing-In-LevelEnd
+[33m56684a6[m Merge branch 'main' into Bug-Fixing-In-LevelEnd
+[33mc162ba1[m Fix: Ninja should'nt throw shuriken in disguise
+[33maecf6e5[m Merge pull request #3 from alifakahr186/Create-UI-Bar-Feature
+[33m2754e74[m Add UI progress bar on UI
+[33md7ad516[m Merge pull request #2 from alifakahr186/Bug-Fixing
+[33m6067c92[m Star Object Sound Fix
+[33mc8f8ab7[m Merge pull request #1 from alifakahr186/Enhancement-and-Improvements
+[33m58c0da1[m Hide All UI Buttons After Ninja Death
+[33mb9d7312[m Clear UI Buttons After Ninja Death
+[33m7725b57[m Now coins scores will be shown permanet
+[33mc7d197c[m Project Files
+[33mea0b53f[m Initial commit

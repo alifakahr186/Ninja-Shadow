@@ -1,11 +1,10 @@
 fileFormatVersion: 2
-guid: 66576d92f63557a429108c449a0d778e
+guid: df5b44714e4b09f49af9a4a6c8462bdb
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -9147674908756343124
-    second: '[CITYPNG.COM]White Outline Circle Transparent Background - 1500x1500
-      (1)_0'
+      213: 1906917397075916226
+    second: pngimg.com - circle_PNG63_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -38,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -54,7 +53,7 @@ TextureImporter:
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spriteGenerateFallbackPhysicsShape: 1
+  spriteGenerateFallbackPhysicsShape: 0
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
@@ -99,7 +98,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
     buildTarget: Android
-    maxTextureSize: 2048
+    maxTextureSize: 512
     resizeAlgorithm: 0
     textureFormat: 47
     textureCompression: 1
@@ -114,14 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: '[CITYPNG.COM]White Outline Circle Transparent Background - 1500x1500
-        (1)_0'
+      name: pngimg.com - circle_PNG63_0
       rect:
         serializedVersion: 2
-        x: 129
-        y: 128
-        width: 1243
-        height: 1243
+        x: 47
+        y: 47
+        width: 418
+        height: 418
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -130,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ca603de032eec0180800000000000000
-      internalID: -9147674908756343124
+      spriteID: 2c5f8b4f44bb67a10800000000000000
+      internalID: 1906917397075916226
       vertices: []
       indices: 
       edges: []
@@ -150,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      '[CITYPNG.COM]White Outline Circle Transparent Background - 1500x1500 (1)_0': -9147674908756343124
+      pngimg.com - circle_PNG63_0: 1906917397075916226
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
