@@ -49,3 +49,13 @@ After installing Unity:
 
 ## Restriction
 The goal of this project is to keep a **consistent gameplay experience**, while allowing improvements in performance, visuals, and level expansion without changing the core structure of the game.
+
+## Images
+
+<img width="1360" height="639" alt="Screenshot 2026-05-22 145201" src="https://github.com/user-attachments/assets/e19c85b3-3bcc-45cc-94ff-94d37e714699" />
+
+<img width="1361" height="623" alt="Screenshot 2026-05-22 145521" src="https://github.com/user-attachments/assets/71bb4f41-fbfa-49b9-9289-9e66ad032b65" />
+
+<img width="1352" height="634" alt="Screenshot 2026-05-22 145025" src="https://github.com/user-attachments/assets/ae85db5c-2aae-41c1-adb7-eae13c2c8dc9" />
+
+<img width="1363" height="629" alt="Screenshot 2026-05-22 145412" src="https://github.com/user-attachments/assets/4cb7e467-c83c-4ca5-bca3-fc617c7be075" />
